@@ -24,6 +24,9 @@ const el = {
   filtrJedlost: document.getElementById("filtr-jedlost"),
   filtrLecive: document.getElementById("filtr-lecive"),
   tlacitkoZrusitFiltry: document.getElementById("tlacitko-zrusit-filtry"),
+  lightbox: document.getElementById("lightbox"),
+  lightboxObrazek: document.getElementById("lightbox-obrazek"),
+  tlacitkoZavritLightbox: document.getElementById("tlacitko-zavrit-lightbox"),
 };
 
 // ---------- Načtení dat ----------
@@ -302,6 +305,19 @@ function zobrazSeznam() {
   el.pohledSeznam.hidden = false;
 }
 
+// ---------- Zvětšená fotka přes celou obrazovku ----------
+
+function otevriLightbox(src, alt) {
+  el.lightboxObrazek.src = src;
+  el.lightboxObrazek.alt = alt;
+  el.lightbox.hidden = false;
+}
+
+function zavriLightbox() {
+  el.lightbox.hidden = true;
+  el.lightboxObrazek.src = "";
+}
+
 // ---------- Spuštění ----------
 
 function pripojUdalosti() {
@@ -316,6 +332,11 @@ function pripojUdalosti() {
   // Kliky uvnitř detailu (odkaz na záměnu / zavření vloženého panelu)
   // řešíme delegovaně, protože obsah detailu se opakovaně přegenerovává.
   el.detailObsah.addEventListener("click", (e) => {
+    const fotka = e.target.closest(".detail-fotky img");
+    if (fotka) {
+      otevriLightbox(fotka.src, fotka.alt);
+      return;
+    }
     const odkazNaZamenu = e.target.closest("[data-otevri-zaznam]");
     if (odkazNaZamenu) {
       otevriNavazanyZaznam(odkazNaZamenu.dataset.otevriZaznam);
@@ -325,6 +346,12 @@ function pripojUdalosti() {
     if (tlacitkoZavrit) {
       tlacitkoZavrit.closest(".panel-navazany").remove();
     }
+  });
+
+  // Zavření zvětšené fotky – klik na křížek, nebo kamkoliv do pozadí.
+  el.tlacitkoZavritLightbox.addEventListener("click", zavriLightbox);
+  el.lightbox.addEventListener("click", (e) => {
+    if (e.target === el.lightbox) zavriLightbox();
   });
 
   el.tlacitkoZrusitFiltry.addEventListener("click", () => {

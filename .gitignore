@@ -1,0 +1,10 @@
+# Originály fotek před zpracováním – obsahují GPS a jiná metadata,
+# nikdy se nemají nahrát do repozitáře.
+/nove-fotky/
+
+# Archiv zpracovaných originálů – jen lokální záloha pro uživatele.
+/archiv-fotky/
+
+# Běžné smetí operačních systémů.
+Thumbs.db
+.DS_Store

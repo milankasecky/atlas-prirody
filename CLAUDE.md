@@ -62,7 +62,10 @@ Každý druh (houba, rostlina, živočich) je jeden JSON soubor v
 - `zamenyId[]` – odkazy (id) na konkrétní záznamy zaměnitelných druhů; v
   detailu se zobrazí jako tlačítko, po kliknutí se pod aktuálním záznamem
   otevře detail té druhé houby (jde zavřít křížkem)
-- `fotky[]` – názvy souborů fotek (ve `fotky/<skupina>/`)
+- `fotky[]` – základy názvů fotek (bez přípony, bez velikosti), např.
+  `"hrib-smrkovy-1"`. Ke každému existují v `fotky/<skupina>/` dva
+  soubory: `<zaklad>-mala.jpg` (náhled) a `<zaklad>-velka.jpg` (detail).
+  Vznikají automaticky skriptem – viz "Zpracování fotek" níže.
 - `zaznamyNalezu[]` – vlastní nálezy tohoto druhu, každý jako
   `{ datum, misto, podminky }` (volný text) – stejný druh lze zaznamenat
   vícekrát na různých místech/datech
@@ -107,9 +110,15 @@ data/
   rostliny/*.json         – záznamy rostlin (zatím prázdné)
   zivocichove/*.json      – záznamy živočichů (zatím prázdné)
 fotky/
-  houby/                  – fotky k houbám (název = podle pole "fotky")
+  houby/                  – zpracované fotky (<zaklad>-mala.jpg / -velka.jpg)
   rostliny/
   zivocichove/
+
+nastroje/
+  zpracuj_fotky.py        – zmenší fotky, odstraní metadata, viz níže
+
+nove-fotky/<id>/           – SEM vkládáš originály (mimo git, viz .gitignore)
+archiv-fotky/<id>/         – originály po zpracování (mimo git)
 ```
 
 Důležité: když přidáš nový soubor `data/houby/<id>.json`, musíš jeho `id`
@@ -120,6 +129,35 @@ V `data/houby/` je zatím 5 **testovacích** záznamů (Hřib smrkový, Muchomů
 `"testovaciZaznam": true` a v aplikaci jsou označeny štítkem "TESTOVACÍ
 ZÁZNAM". Slouží jen k vyzkoušení filtrování, později se smažou a nahradí
 skutečnými daty.
+
+## Zpracování fotek
+
+Originální fotky (rovnou z mobilu) se **nikdy** nenahrávají do gitu – mají
+GPS polohu a jsou velké. Postup:
+
+1. Originály vlož do `nove-fotky/<id-druhu>/` (složku si vytvoř, pokud
+   neexistuje – jméno musí přesně odpovídat `id` druhu, např.
+   `nove-fotky/hrib-smrkovy/`).
+2. Spusť (nebo požádej mě, ať to udělám za tebe větou typu "zpracuj nové
+   fotky pro hřib smrkový"):
+   ```
+   python nastroje/zpracuj_fotky.py hrib-smrkovy
+   ```
+3. Skript pro každou fotku:
+   - zmenší ji na dvě verze (malá pro seznam, velká pro detail),
+   - odstraní VŠECHNA metadata (EXIF), včetně GPS,
+   - ověří, že výsledné soubory opravdu žádná metadata neobsahují,
+   - až po úspěšném ověření přesune originál do `archiv-fotky/<id-druhu>/`
+     (neslaže ho) a doplní nové fotky do pole `fotky` v
+     `data/houby/<id-druhu>.json`.
+4. Pokud ověření selže, skript originály nepřesune a JSON neupraví –
+   vypíše, co je špatně.
+5. Teprve po úspěšném zpracování se nové fotky a upravený JSON uloží do
+   gitu (běžným commitem).
+
+Složky `nove-fotky/` a `archiv-fotky/` jsou v `.gitignore` – existují jen
+lokálně na tomto počítači, po novém klonování repozitáře je třeba je
+znovu vytvořit.
 
 ## Stav projektu
 

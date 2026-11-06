@@ -126,7 +126,7 @@ function vytvorKartuHouby(houba) {
   nahled.textContent = "🍄";
   if (houba.fotky && houba.fotky.length > 0) {
     const img = document.createElement("img");
-    img.src = `fotky/houby/${houba.fotky[0]}`;
+    img.src = `fotky/houby/${houba.fotky[0]}-mala.jpg`;
     img.alt = houba.nazevCesky;
     img.className = "karta-houby__nahled";
     // Pokud fotka chybí (zatím nejsou vložené), zůstane jen emoji náhled.
@@ -208,7 +208,7 @@ function vykresliDetail(houba) {
       ? houba.fotky
           .map(
             (f) =>
-              `<img src="fotky/houby/${f}" alt="${houba.nazevCesky}" onerror="this.outerHTML='<div class=\\'chybi-foto\\'>🍄</div>'">`
+              `<img src="fotky/houby/${f}-velka.jpg" alt="${houba.nazevCesky}" onerror="this.outerHTML='<div class=\\'chybi-foto\\'>🍄</div>'">`
           )
           .join("")
       : `<div class="chybi-foto">🍄</div>`;
@@ -365,7 +365,10 @@ async function ulozVseProOffline() {
   ];
   const zaznamyHub = houby.map((h) => `data/houby/${h.id}.json`);
   const fotkyHub = houby.flatMap((h) =>
-    (h.fotky || []).map((f) => `fotky/houby/${f}`)
+    (h.fotky || []).flatMap((f) => [
+      `fotky/houby/${f}-mala.jpg`,
+      `fotky/houby/${f}-velka.jpg`,
+    ])
   );
 
   const cache = await caches.open(NAZEV_CACHE);

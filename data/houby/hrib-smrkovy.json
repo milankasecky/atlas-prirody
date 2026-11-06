@@ -3,12 +3,23 @@
   "skupina": "houba",
   "nazevCesky": "Hřib smrkový",
   "nazevLatinsky": "Boletus edulis",
-  "mesiceVyskytu": ["cerven", "cervenec", "srpen", "zari", "rijen"],
-  "stanoviste": ["les-jehlicnaty", "les-smiseny"],
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
   "popis": "Klobouk hnědý až kaštanový, na omak sametový. Třeň silný, síťovaný, světlý. Rourky bílé, později žlutozelené.",
   "zamenyS": "Žlučník hořký – podobný vzhled, ale síťování na třeni je tmavší a dužnina po rozkrojení zrůžoví a chutná hořce.",
   "zamenyId": [],
-  "fotky": [],
+  "fotky": [
+    "hrib-smrkovy-1"
+  ],
   "zaznamyNalezu": [
     {
       "datum": "2026-09-12",
@@ -19,6 +30,10 @@
   "stitky": [],
   "jedlost": "vyborna",
   "lecive": false,
-  "stromy": ["smrk", "borovice", "buk"],
+  "stromy": [
+    "smrk",
+    "borovice",
+    "buk"
+  ],
   "testovaciZaznam": true
 }

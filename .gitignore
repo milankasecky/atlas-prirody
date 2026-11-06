@@ -8,3 +8,8 @@
 # Běžné smetí operačních systémů.
 Thumbs.db
 .DS_Store
+
+# Vyplněné karty hub a jejich archiv – obsahují pole "Soukromé"
+# (moje lokality a poznámky), nikdy se nemají nahrát na GitHub.
+/nove-zaznamy/
+/archiv-zaznamy/

@@ -1,0 +1,72 @@
+# =================================================================
+#  KARTA HOUBY – vzor pro nový záznam do Atlasu přírody
+# =================================================================
+# Jak na to:
+#  1. Zkopíruj tento soubor do složky nove-zaznamy/ a přejmenuj ho
+#     na id houby: malá písmena bez diakritiky, slova oddělená
+#     pomlčkou, např. hrib-smrkovy.txt
+#  2. Fotky (pokud máš) dej do nove-fotky/<stejný název>/,
+#     např. nove-fotky/hrib-smrkovy/  (formát .jpg, .jpeg nebo .png)
+#  3. Vyplň hodnoty za dvojtečku. Řádky začínající # jsou jen
+#     nápověda, nikam se nepřevádí (klidně je smaž).
+#  4. Víc hodnot odděl čárkou. Delší text může pokračovat na
+#     dalších řádcích. Nevyplněné pole nech prázdné.
+#  5. Řekni Claudovi: „zpracuj nové záznamy“.
+#
+# Hodnoty z nabídky můžeš psát názvem (Jehličnatý les) i zkratkou
+# v závorce (les-jehlicnaty). Velká/malá písmena ani diakritika
+# nevadí. Hodnota mimo nabídku = karta se neuloží a dozvíš se,
+# co opravit.
+# -----------------------------------------------------------------
+
+# POVINNÉ. Např. Hřib smrkový
+Název česky: 
+
+# Např. Boletus edulis
+Název latinsky: 
+
+# POVINNÉ, právě jedna hodnota:
+# Výborná jedlá (vyborna), Jedlá (jedla), Podmínečně jedlá (podminecne-jedla), Nejedlá (nejedla), Jedovatá (jedovata), Smrtelně jedovatá (smrtelne-jedovata)
+Jedlost: 
+
+# ano / ne (když nevyplníš, platí ne)
+Léčivá: ne
+
+# Víc hodnot čárkou, nebo rozsah pomlčkou (např. červen-říjen):
+# Leden (leden), Únor (unor), Březen (brezen), Duben (duben), Květen (kveten), Červen (cerven), Červenec (cervenec), Srpen (srpen), Září (zari), Říjen (rijen), Listopad (listopad), Prosinec (prosinec)
+Měsíce výskytu: 
+
+# Víc hodnot čárkou:
+# Jehličnatý les (les-jehlicnaty), Listnatý les (les-listnaty), Smíšený les (les-smiseny), Louka (louka), Pole (pole), Mokřad (mokrad), U vody (u-vody), Zahrada (zahrada), Park (park), Městská zástavba (mestska-zastavba), Hory (hory)
+Stanoviště: 
+
+# Mykorhizní stromy, víc hodnot čárkou:
+# Buk (buk), Dub (dub), Bříza (briza), Habr (habr), Lípa (lipa), Topol (topol), Olše (olse), Smrk (smrk), Borovice (borovice), Jedle (jedle), Modřín (modrin), Ovocné stromy (ovocne)
+Stromy: 
+
+# Vzhled, jak druh poznat (volný text, může mít víc řádků)
+Popis: 
+
+# Čím se liší od podobných druhů (volný text)
+Záměna s: 
+
+# Odkazy na podobné druhy, které už v aplikaci jsou – id nebo
+# český název, víc čárkou. Např. hrib-smrkovy
+Záměna odkaz: 
+
+# Volné štítky, víc čárkou
+Štítky: 
+
+# --- Vlastní nález (VEŘEJNÝ – uvidí ho každý v aplikaci) ---
+# Datum ve tvaru 2026-09-12 nebo 12. 9. 2026
+Nález datum: 
+# Piš obecně (např. smrkový les, okraj mlází). Přesné místo
+# patří do pole Soukromé níže!
+Nález místo: 
+# Počasí, podmínky
+Nález podmínky: 
+
+# --- SOUKROMÉ – do aplikace se NIKDY nepřevádí ---
+# Tvoje lokality, GPS, osobní poznámky. Může mít víc řádků.
+# Zůstane jen v kartě v archiv-zaznamy/ (nenahrává se na GitHub).
+Soukromé: 

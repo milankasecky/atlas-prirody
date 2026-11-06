@@ -159,6 +159,38 @@ Složky `nove-fotky/` a `archiv-fotky/` jsou v `.gitignore` – existují jen
 lokálně na tomto počítači, po novém klonování repozitáře je třeba je
 znovu vytvořit.
 
+## Nové záznamy přes textové karty
+
+Nové houby se zapisují na PC jako obyčejné textové karty (řádky
+`Pole: hodnota`), převod do aplikace dělá skript
+`nastroje/zpracuj_zaznamy.py` – pokaždé stejně.
+
+1. Vzor karty: `nove-zaznamy/_vzor-karty-houby.txt` (kopie i v
+   `nastroje/vzor-karty-houby.txt`). Obsahuje nápovědu s povolenými
+   hodnotami z `data/hodnoty.json`; skript ho při každém spuštění
+   přegeneruje, takže je vždy aktuální.
+2. Vyplněná karta = `nove-zaznamy/<id>.txt`, fotky do
+   `nove-fotky/<id>/` (stejný název).
+3. Pole `Soukromé:` (lokality, osobní poznámky) se do aplikace NIKDY
+   nepřevádí. `Nález místo` je naopak veřejné.
+4. Na pokyn **„zpracuj nové záznamy"** spusť:
+   ```
+   python nastroje/zpracuj_zaznamy.py
+   ```
+   (`--kontrola` = jen kontrola bez ukládání). Skript nejdřív
+   zkontroluje všechny karty; při jakékoliv chybě (hodnota mimo
+   číselník, překlep v poli, špatné datum, neplatný název souboru…)
+   neuloží NIC a vypíše, co opravit – tyto chyby předej uživateli.
+   Když je vše OK: zpracuje fotky (zmenšení, odstranění EXIF/GPS,
+   ověření), uloží `data/houby/<id>.json`, doplní `index.json`, originály
+   přesune do `archiv-fotky/<id>/` a karty do `archiv-zaznamy/`.
+5. Karta se stejným id jako testovací záznam ho nahradí (zachová jeho
+   fotky); skutečný existující záznam skript nepřepíše.
+6. Po úspěšném převodu změny commitni; nahrání na GitHub (push) jen po
+   souhlasu uživatele.
+
+Složky `nove-zaznamy/` a `archiv-zaznamy/` jsou v `.gitignore`.
+
 ## Stav projektu
 
 - 2026-11-06: Založen git repozitář, `CLAUDE.md`, datová struktura
@@ -201,6 +233,10 @@ znovu vytvořit.
   kliknutí v detailu houby – ověřeno uživatelem na mobilu, funguje. Ověřeno
   i automatické zaktualizování appky na mobilu (díky strategii "nejdřív
   síť" stačí appku znovu otevřít s internetem, bez přeinstalace).
+- 2026-11-06: Přidány textové karty hub a skript
+  `nastroje/zpracuj_zaznamy.py` (viz oddíl "Nové záznamy přes textové
+  karty"). Otestováno na kopii projektu: chybné karty se neuloží, pole
+  Soukromé se nepřevádí, fotky bez GPS, karty se archivují.
 - **Další krok:** uživatel bude postupně doplňovat vlastní reálné houby a
   fotky (přes `nastroje/zpracuj_fotky.py`) a nahrazovat jimi testovací
   záznamy. Až bude dost reálných dat, smazat testovací záznamy

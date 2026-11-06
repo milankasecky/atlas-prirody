@@ -162,10 +162,40 @@ function vytvorStitky(houba) {
 // ---------- Detail houby ----------
 
 function zobrazDetail(houba) {
-  el.detailObsah.innerHTML = vykresliDetail(houba);
+  // Hlavní záznam + prázdný kontejner pro "vložené" záznamy záměn.
+  el.detailObsah.innerHTML = `
+    <div id="hlavni-zaznam"></div>
+    <div id="navazane-zaznamy"></div>
+  `;
+  document.getElementById("hlavni-zaznam").innerHTML = vykresliDetail(houba);
   el.pohledSeznam.hidden = true;
   el.pohledDetail.hidden = false;
   window.scrollTo(0, 0);
+}
+
+// Najde houbu podle id v už načtených datech.
+function najdiHoubuPodleId(id) {
+  return houby.find((h) => h.id === id);
+}
+
+// Otevře pod aktuálním detailem vložený záznam houby, se kterou se dá zaměnit.
+function otevriNavazanyZaznam(id) {
+  const houba = najdiHoubuPodleId(id);
+  if (!houba) return;
+
+  const kontejner = document.getElementById("navazane-zaznamy");
+  if (kontejner.querySelector(`[data-panel-id="${id}"]`)) {
+    return; // tento záznam je už otevřený
+  }
+
+  const panel = document.createElement("div");
+  panel.className = "panel-navazany";
+  panel.dataset.panelId = id;
+  panel.innerHTML = `
+    <button class="tlacitko-zavrit-panel" type="button" data-zavri-panel="${id}" title="Zavřít">×</button>
+    ${vykresliDetail(houba)}
+  `;
+  kontejner.appendChild(panel);
 }
 
 function vykresliDetail(houba) {
@@ -198,6 +228,28 @@ function vykresliDetail(houba) {
     .map((stitek) => `<span class="chip">${stitek}</span>`)
     .join("");
 
+  // Odkazy na záznamy podobných/zaměnitelných druhů – kliknutím se otevřou pod detailem.
+  const zamenyOdkazy = (houba.zamenyId || [])
+    .map((id) => najdiHoubuPodleId(id))
+    .filter((h) => h)
+    .map(
+      (h) =>
+        `<button class="chip chip--odkaz" type="button" data-otevri-zaznam="${h.id}">${h.nazevCesky} →</button>`
+    )
+    .join("");
+
+  const zaznamyNalezuText = (houba.zaznamyNalezu || [])
+    .map(
+      (z) => `
+        <div class="zaznam-nalezu">
+          ${z.datum ? `<p class="zaznam-nalezu__datum">${z.datum}</p>` : ""}
+          ${z.misto ? `<p class="zaznam-nalezu__misto">📍 ${z.misto}</p>` : ""}
+          ${z.podminky ? `<p>${z.podminky}</p>` : ""}
+        </div>
+      `
+    )
+    .join("");
+
   return `
     <div class="detail-stitky">${vytvorStitky(houba)}</div>
     <h1 class="detail-nazev">${houba.nazevCesky}</h1>
@@ -224,11 +276,12 @@ function vykresliDetail(houba) {
     <div class="detail-sekce">
       <h2>Záměny</h2>
       <p>${houba.zamenyS || "–"}</p>
+      ${zamenyOdkazy ? `<div class="chipy" style="margin-top:8px">${zamenyOdkazy}</div>` : ""}
     </div>
 
     ${
-      houba.poznamka
-        ? `<div class="detail-sekce"><h2>Poznámka</h2><p>${houba.poznamka}</p></div>`
+      zaznamyNalezuText
+        ? `<div class="detail-sekce"><h2>Záznam nálezu</h2>${zaznamyNalezuText}</div>`
         : ""
     }
 
@@ -255,6 +308,20 @@ function pripojUdalosti() {
   el.filtrJedlost.addEventListener("change", vykresliSeznam);
   el.filtrLecive.addEventListener("change", vykresliSeznam);
   el.tlacitkoZpet.addEventListener("click", zobrazSeznam);
+
+  // Kliky uvnitř detailu (odkaz na záměnu / zavření vloženého panelu)
+  // řešíme delegovaně, protože obsah detailu se opakovaně přegenerovává.
+  el.detailObsah.addEventListener("click", (e) => {
+    const odkazNaZamenu = e.target.closest("[data-otevri-zaznam]");
+    if (odkazNaZamenu) {
+      otevriNavazanyZaznam(odkazNaZamenu.dataset.otevriZaznam);
+      return;
+    }
+    const tlacitkoZavrit = e.target.closest("[data-zavri-panel]");
+    if (tlacitkoZavrit) {
+      tlacitkoZavrit.closest(".panel-navazany").remove();
+    }
+  });
 
   el.tlacitkoZrusitFiltry.addEventListener("click", () => {
     el.vstupHledani.value = "";

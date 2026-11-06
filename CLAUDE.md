@@ -58,9 +58,14 @@ Každý druh (houba, rostlina, živočich) je jeden JSON soubor v
 - `mesiceVyskytu[]` – měsíce výskytu, hodnoty z číselníku `mesice`
 - `stanoviste[]` – typ prostředí, hodnoty z číselníku `stanoviste`
 - `popis` – volný text (vzhled, poznání druhu)
-- `zamenyS` – volný text (záměny s jinými druhy)
+- `zamenyS` – volný text (čím se liší od zaměnitelných druhů)
+- `zamenyId[]` – odkazy (id) na konkrétní záznamy zaměnitelných druhů; v
+  detailu se zobrazí jako tlačítko, po kliknutí se pod aktuálním záznamem
+  otevře detail té druhé houby (jde zavřít křížkem)
 - `fotky[]` – názvy souborů fotek (ve `fotky/<skupina>/`)
-- `poznamka` – volný text (vlastní poznámka k nálezu)
+- `zaznamyNalezu[]` – vlastní nálezy tohoto druhu, každý jako
+  `{ datum, misto, podminky }` (volný text) – stejný druh lze zaznamenat
+  vícekrát na různých místech/datech
 - `stitky[]` – volné štítky (text bez omezení, pro cokoliv dalšího)
 
 **Pole jen pro houby:**
@@ -127,6 +132,11 @@ skutečnými daty.
   hub pro vyzkoušení filtrů (viz výše). Ověřeno přes lokální server
   (`python -m http.server`), že se stránka a data správně načtou. Zatím bez
   PWA/offline režimu a bez nasazení na GitHub Pages.
+- 2026-11-06: Doplněn oddíl "Záznam nálezu" (pole `zaznamyNalezu[]` –
+  vlastní nálezy s datem/místem/podmínkami, nahradilo pole `poznamka`) a
+  propojení záměn mezi záznamy (`zamenyId[]`) – v detailu houby lze
+  kliknutím na odkaz otevřít detail zaměnitelného druhu přímo pod aktuálním
+  záznamem, se zavřením křížkem. Otestováno přes lokální server.
 - **Další krok:** fáze 4 (rozšíření vyhledávání/filtrů) je už z větší části
   hotová společně s fází 3 – zbývá fáze 5 (reálné zpracování fotek: zmenšení
   + odstranění GPS/EXIF) a fáze 6 (PWA – manifest, ikony, Service Worker,

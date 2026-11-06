@@ -290,6 +290,66 @@ body {
   border-radius: 999px;
   padding: 3px 10px;
   font-size: 0.8rem;
+  border: none;
+}
+
+/* Klikatelný odkaz na záznam zaměnitelné houby. */
+.chip--odkaz {
+  background: var(--barva-primarni);
+  color: white;
+  cursor: pointer;
+  font-size: 0.82rem;
+}
+
+.chip--odkaz:hover {
+  background: var(--barva-primarni-tmava);
+}
+
+/* Vlastní záznam nálezu (datum, místo, podmínky). */
+.zaznam-nalezu {
+  border-left: 3px solid var(--barva-primarni);
+  padding: 4px 0 4px 10px;
+  margin-bottom: 10px;
+}
+
+.zaznam-nalezu p {
+  margin: 0 0 2px;
+}
+
+.zaznam-nalezu__datum {
+  font-weight: 600;
+}
+
+.zaznam-nalezu__misto {
+  color: var(--barva-podtext);
+}
+
+/* Vložený detail zaměnitelné houby pod hlavním záznamem. */
+.panel-navazany {
+  position: relative;
+  margin-top: 18px;
+  padding: 14px 14px 4px;
+  border: 1px dashed var(--barva-ramecek);
+  border-radius: var(--radius);
+  background: var(--barva-karta);
+}
+
+.tlacitko-zavrit-panel {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #ece9dd;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.tlacitko-zavrit-panel:hover {
+  background: #ddd9cc;
 }
 
 /* ---------- Větší obrazovky ---------- */

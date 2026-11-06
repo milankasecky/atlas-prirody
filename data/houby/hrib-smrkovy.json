@@ -7,8 +7,15 @@
   "stanoviste": ["les-jehlicnaty", "les-smiseny"],
   "popis": "Klobouk hnědý až kaštanový, na omak sametový. Třeň silný, síťovaný, světlý. Rourky bílé, později žlutozelené.",
   "zamenyS": "Žlučník hořký – podobný vzhled, ale síťování na třeni je tmavší a dužnina po rozkrojení zrůžoví a chutná hořce.",
+  "zamenyId": [],
   "fotky": ["hrib-smrkovy-1.jpg", "hrib-smrkovy-2.jpg"],
-  "poznamka": "",
+  "zaznamyNalezu": [
+    {
+      "datum": "2026-09-12",
+      "misto": "Smrkový les u Kolína, okraj mlází",
+      "podminky": "Po dešti, teplo – ukázkový testovací záznam nálezu."
+    }
+  ],
   "stitky": [],
   "jedlost": "vyborna",
   "lecive": false,

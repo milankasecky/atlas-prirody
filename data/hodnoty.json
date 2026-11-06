@@ -49,7 +49,6 @@
     { "id": "vyborna", "nazev": "Výborná jedlá" },
     { "id": "jedla", "nazev": "Jedlá" },
     { "id": "podminecne-jedla", "nazev": "Podmínečně jedlá" },
-    { "id": "lecive", "nazev": "Léčivá" },
     { "id": "nejedla", "nazev": "Nejedlá" },
     { "id": "jedovata", "nazev": "Jedovatá" },
     { "id": "smrtelne-jedovata", "nazev": "Smrtelně jedovatá" }

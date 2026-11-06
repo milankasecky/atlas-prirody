@@ -1,0 +1,277 @@
+// Atlas přírody – jednoduchá aplikace pro zobrazení a filtrování hub.
+// Žádné knihovny, jen čistý JavaScript.
+
+// Globální proměnné – data se načtou jednou při startu.
+let hodnoty = null; // číselníky (měsíce, stanoviště, stromy, jedlost)
+let houby = []; // všechny načtené houby
+
+// Odkazy na prvky stránky.
+const el = {
+  pohledSeznam: document.getElementById("pohled-seznam"),
+  pohledDetail: document.getElementById("pohled-detail"),
+  detailObsah: document.getElementById("detail-obsah"),
+  tlacitkoZpet: document.getElementById("tlacitko-zpet"),
+  seznamHub: document.getElementById("seznam-hub"),
+  pocetVysledku: document.getElementById("pocet-vysledku"),
+  vstupHledani: document.getElementById("vstup-hledani"),
+  filtrMesic: document.getElementById("filtr-mesic"),
+  filtrStanoviste: document.getElementById("filtr-stanoviste"),
+  filtrStrom: document.getElementById("filtr-strom"),
+  filtrJedlost: document.getElementById("filtr-jedlost"),
+  filtrLecive: document.getElementById("filtr-lecive"),
+  tlacitkoZrusitFiltry: document.getElementById("tlacitko-zrusit-filtry"),
+};
+
+// ---------- Načtení dat ----------
+
+async function nactiData() {
+  hodnoty = await fetch("data/hodnoty.json").then((r) => r.json());
+
+  const index = await fetch("data/houby/index.json").then((r) => r.json());
+  houby = await Promise.all(
+    index.seznam.map((id) =>
+      fetch(`data/houby/${id}.json`).then((r) => r.json())
+    )
+  );
+}
+
+// Najde v číselníku český název podle id (např. "brezen" -> "Březen").
+function nazevZCiselniku(seznamHodnot, id) {
+  const nalezeno = seznamHodnot.find((h) => h.id === id);
+  return nalezeno ? nalezeno.nazev : id;
+}
+
+// ---------- Naplnění filtrů z číselníků ----------
+
+function naplnFiltrVyberem(selectEl, seznamHodnot) {
+  for (const hodnota of seznamHodnot) {
+    const option = document.createElement("option");
+    option.value = hodnota.id;
+    option.textContent = hodnota.nazev;
+    selectEl.appendChild(option);
+  }
+}
+
+function naplnFiltry() {
+  naplnFiltrVyberem(el.filtrMesic, hodnoty.mesice);
+  naplnFiltrVyberem(el.filtrStanoviste, hodnoty.stanoviste);
+  naplnFiltrVyberem(el.filtrStrom, hodnoty.stromy);
+  naplnFiltrVyberem(el.filtrJedlost, hodnoty.jedlost);
+}
+
+// ---------- Filtrování a hledání ----------
+
+// Odstraní diakritiku, aby hledání fungovalo i bez háčků a čárek.
+function bezDiakritiky(text) {
+  return text
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
+}
+
+function vyfiltrujHouby() {
+  const hledanyText = bezDiakritiky(el.vstupHledani.value.trim());
+  const mesic = el.filtrMesic.value;
+  const stanoviste = el.filtrStanoviste.value;
+  const strom = el.filtrStrom.value;
+  const jedlost = el.filtrJedlost.value;
+  const jenLecive = el.filtrLecive.checked;
+
+  return houby.filter((h) => {
+    if (
+      hledanyText &&
+      !bezDiakritiky(h.nazevCesky).includes(hledanyText) &&
+      !bezDiakritiky(h.nazevLatinsky).includes(hledanyText)
+    ) {
+      return false;
+    }
+    if (mesic && !h.mesiceVyskytu.includes(mesic)) return false;
+    if (stanoviste && !h.stanoviste.includes(stanoviste)) return false;
+    if (strom && !(h.stromy || []).includes(strom)) return false;
+    if (jedlost && h.jedlost !== jedlost) return false;
+    if (jenLecive && !h.lecive) return false;
+    return true;
+  });
+}
+
+// ---------- Vykreslení seznamu ----------
+
+function vykresliSeznam() {
+  const vyfiltrovane = vyfiltrujHouby();
+
+  el.seznamHub.innerHTML = "";
+  el.pocetVysledku.textContent = `Nalezeno: ${vyfiltrovane.length} z ${houby.length}`;
+
+  if (vyfiltrovane.length === 0) {
+    el.seznamHub.innerHTML = `<li class="prazdny-seznam">Žádná houba neodpovídá zadaným filtrům.</li>`;
+    return;
+  }
+
+  for (const houba of vyfiltrovane) {
+    el.seznamHub.appendChild(vytvorKartuHouby(houba));
+  }
+}
+
+function vytvorKartuHouby(houba) {
+  const li = document.createElement("li");
+  li.className = "karta-houby";
+  li.addEventListener("click", () => zobrazDetail(houba));
+
+  const nahled = document.createElement("div");
+  nahled.className = "karta-houby__nahled";
+  nahled.textContent = "🍄";
+  if (houba.fotky && houba.fotky.length > 0) {
+    const img = document.createElement("img");
+    img.src = `fotky/houby/${houba.fotky[0]}`;
+    img.alt = houba.nazevCesky;
+    img.className = "karta-houby__nahled";
+    // Pokud fotka chybí (zatím nejsou vložené), zůstane jen emoji náhled.
+    img.onerror = () => img.remove();
+    nahled.textContent = "";
+    nahled.appendChild(img);
+  }
+
+  const info = document.createElement("div");
+  info.className = "karta-houby__info";
+  info.innerHTML = `
+    <p class="karta-houby__nazev">${houba.nazevCesky}</p>
+    <p class="karta-houby__latinsky">${houba.nazevLatinsky}</p>
+    ${vytvorStitky(houba)}
+  `;
+
+  li.appendChild(nahled);
+  li.appendChild(info);
+  return li;
+}
+
+function vytvorStitky(houba) {
+  let html = "";
+  if (houba.jedlost) {
+    const nazev = nazevZCiselniku(hodnoty.jedlost, houba.jedlost);
+    html += `<span class="stitek stitek--${houba.jedlost}">${nazev}</span> `;
+  }
+  if (houba.lecive) {
+    html += `<span class="stitek stitek--lecive">Léčivá</span> `;
+  }
+  if (houba.testovaciZaznam) {
+    html += `<span class="stitek stitek--test">TESTOVACÍ ZÁZNAM</span>`;
+  }
+  return html;
+}
+
+// ---------- Detail houby ----------
+
+function zobrazDetail(houba) {
+  el.detailObsah.innerHTML = vykresliDetail(houba);
+  el.pohledSeznam.hidden = true;
+  el.pohledDetail.hidden = false;
+  window.scrollTo(0, 0);
+}
+
+function vykresliDetail(houba) {
+  const fotky =
+    houba.fotky && houba.fotky.length > 0
+      ? houba.fotky
+          .map(
+            (f) =>
+              `<img src="fotky/houby/${f}" alt="${houba.nazevCesky}" onerror="this.outerHTML='<div class=\\'chybi-foto\\'>🍄</div>'">`
+          )
+          .join("")
+      : `<div class="chybi-foto">🍄</div>`;
+
+  const mesiceText = houba.mesiceVyskytu
+    .map((id) => nazevZCiselniku(hodnoty.mesice, id))
+    .map((nazev) => `<span class="chip">${nazev}</span>`)
+    .join("");
+
+  const stanovisteText = houba.stanoviste
+    .map((id) => nazevZCiselniku(hodnoty.stanoviste, id))
+    .map((nazev) => `<span class="chip">${nazev}</span>`)
+    .join("");
+
+  const stromyText = (houba.stromy || [])
+    .map((id) => nazevZCiselniku(hodnoty.stromy, id))
+    .map((nazev) => `<span class="chip">${nazev}</span>`)
+    .join("");
+
+  const stitkyText = (houba.stitky || [])
+    .map((stitek) => `<span class="chip">${stitek}</span>`)
+    .join("");
+
+  return `
+    <div class="detail-stitky">${vytvorStitky(houba)}</div>
+    <h1 class="detail-nazev">${houba.nazevCesky}</h1>
+    <p class="detail-latinsky">${houba.nazevLatinsky}</p>
+
+    <div class="detail-fotky">${fotky}</div>
+
+    <div class="detail-sekce">
+      <h2>Popis</h2>
+      <p>${houba.popis || "–"}</p>
+    </div>
+
+    <div class="detail-sekce">
+      <h2>Výskyt</h2>
+      <div class="chipy">${mesiceText}</div>
+      <div class="chipy" style="margin-top:6px">${stanovisteText}</div>
+      ${
+        stromyText
+          ? `<div class="chipy" style="margin-top:6px">${stromyText}</div>`
+          : ""
+      }
+    </div>
+
+    <div class="detail-sekce">
+      <h2>Záměny</h2>
+      <p>${houba.zamenyS || "–"}</p>
+    </div>
+
+    ${
+      houba.poznamka
+        ? `<div class="detail-sekce"><h2>Poznámka</h2><p>${houba.poznamka}</p></div>`
+        : ""
+    }
+
+    ${
+      stitkyText
+        ? `<div class="detail-sekce"><h2>Štítky</h2><div class="chipy">${stitkyText}</div></div>`
+        : ""
+    }
+  `;
+}
+
+function zobrazSeznam() {
+  el.pohledDetail.hidden = true;
+  el.pohledSeznam.hidden = false;
+}
+
+// ---------- Spuštění ----------
+
+function pripojUdalosti() {
+  el.vstupHledani.addEventListener("input", vykresliSeznam);
+  el.filtrMesic.addEventListener("change", vykresliSeznam);
+  el.filtrStanoviste.addEventListener("change", vykresliSeznam);
+  el.filtrStrom.addEventListener("change", vykresliSeznam);
+  el.filtrJedlost.addEventListener("change", vykresliSeznam);
+  el.filtrLecive.addEventListener("change", vykresliSeznam);
+  el.tlacitkoZpet.addEventListener("click", zobrazSeznam);
+
+  el.tlacitkoZrusitFiltry.addEventListener("click", () => {
+    el.vstupHledani.value = "";
+    el.filtrMesic.value = "";
+    el.filtrStanoviste.value = "";
+    el.filtrStrom.value = "";
+    el.filtrJedlost.value = "";
+    el.filtrLecive.checked = false;
+    vykresliSeznam();
+  });
+}
+
+async function start() {
+  await nactiData();
+  naplnFiltry();
+  pripojUdalosti();
+  vykresliSeznam();
+}
+
+start();

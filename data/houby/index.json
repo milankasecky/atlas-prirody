@@ -1,0 +1,10 @@
+{
+  "_info": "Seznam id souborů s houbami, které má aplikace načíst. Když přidáš nový soubor data/houby/<id>.json, musíš jeho id doplnit i sem.",
+  "seznam": [
+    "hrib-smrkovy",
+    "muchomurka-cervena",
+    "liska-obecna",
+    "zampion-polni",
+    "pychavka-obecna"
+  ]
+}

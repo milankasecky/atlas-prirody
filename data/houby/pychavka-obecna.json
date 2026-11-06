@@ -1,0 +1,17 @@
+{
+  "id": "pychavka-obecna",
+  "skupina": "houba",
+  "nazevCesky": "Pýchavka obecná",
+  "nazevLatinsky": "Lycoperdon perlatum",
+  "mesiceVyskytu": ["cervenec", "srpen", "zari", "rijen"],
+  "stanoviste": ["les-listnaty", "les-smiseny"],
+  "popis": "Kulovitá až hruškovitá houba s bílým až nahnědlým povrchem pokrytým drobnými bradavkami. Jedlá jen v mladém stavu, dokud je dužnina celá bílá.",
+  "zamenyS": "Ve starším stavu, kdy zevnitř žloutne/hnědne, se nekonzumuje – nutné rozříznout a zkontrolovat celou bílou dužninu.",
+  "fotky": ["pychavka-obecna-1.jpg"],
+  "poznamka": "",
+  "stitky": ["testovaci-data"],
+  "jedlost": "podminecne-jedla",
+  "lecive": true,
+  "stromy": ["buk", "dub", "briza"],
+  "testovaciZaznam": true
+}

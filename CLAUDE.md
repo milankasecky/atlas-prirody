@@ -66,7 +66,11 @@ Každý druh (houba, rostlina, živočich) je jeden JSON soubor v
 **Pole jen pro houby:**
 
 - `jedlost` – jedna hodnota z číselníku `jedlost`
+- `lecive` – `true`/`false`, nezávislé na jedlosti (houba může být jedlá
+  i léčivá zároveň)
 - `stromy[]` – mykorhizní stromy, hodnoty z číselníku `stromy`
+- `testovaciZaznam` – `true` u ukázkových/testovacích záznamů, které se
+  později smažou (zatím mají tento příznak všechny houby v `data/houby/`)
 
 **Číselníky pevných hodnot** jsou v `data/hodnoty.json` (společný soubor,
 lze kdykoliv rozšiřovat o nové hodnoty). Obsahuje:
@@ -76,8 +80,9 @@ lze kdykoliv rozšiřovat o nové hodnoty). Obsahuje:
   u vody, zahrada, park, městská zástavba, hory
 - `stromy` (jen houby) – buk, dub, bříza, habr, lípa, topol, olše, smrk,
   borovice, jedle, modřín, ovocné stromy
-- `jedlost` (jen houby) – výborná jedlá, jedlá, podmínečně jedlá, léčivá,
+- `jedlost` (jen houby) – výborná jedlá, jedlá, podmínečně jedlá,
   nejedlá, jedovatá, smrtelně jedovatá
+  (léčivost je samostatné pole `lecive`, ne součást jedlosti)
 
 Tyto seznamy slouží i pro filtrování (např. „březen + louka + jedlé").
 Hodnoty lze přidávat kdykoliv; mazat/přejmenovávat `id` už existující
@@ -86,26 +91,44 @@ hodnoty je třeba opatrně – vyžaduje ruční opravu záznamů, které ji pou
 ### Adresářová struktura
 
 ```
+index.html               – hlavní stránka (seznam + detail houby)
+css/style.css             – vzhled (mobile-first, funguje i na počítači)
+js/app.js                 – načtení dat, filtrování, vykreslení
+
 data/
-  hodnoty.json          – číselníky povolených hodnot
-  houby/*.json          – záznamy hub (1 soubor = 1 druh)
-  rostliny/*.json        – záznamy rostlin (zatím prázdné)
-  zivocichove/*.json     – záznamy živočichů (zatím prázdné)
+  hodnoty.json            – číselníky povolených hodnot
+  houby/index.json        – seznam id souborů hub, které se mají načíst
+  houby/*.json            – záznamy hub (1 soubor = 1 druh)
+  rostliny/*.json         – záznamy rostlin (zatím prázdné)
+  zivocichove/*.json      – záznamy živočichů (zatím prázdné)
 fotky/
-  houby/                 – fotky k houbám (název = podle pole "fotky")
+  houby/                  – fotky k houbám (název = podle pole "fotky")
   rostliny/
   zivocichove/
 ```
 
-Ukázkový záznam: `data/houby/hrib-smrkovy.json`.
+Důležité: když přidáš nový soubor `data/houby/<id>.json`, musíš jeho `id`
+přidat i do `data/houby/index.json`, jinak se v aplikaci nezobrazí.
+
+V `data/houby/` je zatím 5 **testovacích** záznamů (Hřib smrkový, Muchomůrka
+červená, Liška obecná, Žampion polní, Pýchavka obecná) – mají příznak
+`"testovaciZaznam": true` a v aplikaci jsou označeny štítkem "TESTOVACÍ
+ZÁZNAM". Slouží jen k vyzkoušení filtrování, později se smažou a nahradí
+skutečnými daty.
 
 ## Stav projektu
 
-- 2026-11-06: Založen git repozitář, `CLAUDE.md`. Dohodnuta a založena
-  datová struktura – společná pole pro všechny skupiny + pole jen pro houby,
-  číselníky v `data/hodnoty.json`, adresářová struktura `data/` a `fotky/`,
-  ukázkový záznam houby (Hřib smrkový). Zatím žádný zobrazovací kód (web
-  stránka, PWA).
-- **Další krok:** fáze 3 – základní statická stránka, která načte data z
-  `data/` a zobrazí seznam hub + detail houby (zatím bez PWA, jen v
-  prohlížeči).
+- 2026-11-06: Založen git repozitář, `CLAUDE.md`, datová struktura
+  (číselníky, společná/houbí pole, adresáře `data/` a `fotky/`). Vytvořena
+  fáze 3 – funkční statická webová stránka (`index.html`, `css/style.css`,
+  `js/app.js`): seznam hub, detail s fotkami a textem, filtry podle měsíce,
+  stanoviště, stromu a jedlosti, checkbox "jen léčivé", hledání podle názvu.
+  Vzhled mobile-first, funguje i na počítači. Doplněno 5 testovacích záznamů
+  hub pro vyzkoušení filtrů (viz výše). Ověřeno přes lokální server
+  (`python -m http.server`), že se stránka a data správně načtou. Zatím bez
+  PWA/offline režimu a bez nasazení na GitHub Pages.
+- **Další krok:** fáze 4 (rozšíření vyhledávání/filtrů) je už z větší části
+  hotová společně s fází 3 – zbývá fáze 5 (reálné zpracování fotek: zmenšení
+  + odstranění GPS/EXIF) a fáze 6 (PWA – manifest, ikony, Service Worker,
+  offline režim). Uživatel ještě musí doplnit vlastní fotky a reálné houby
+  namísto testovacích záznamů.

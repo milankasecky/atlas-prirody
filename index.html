@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas přírody – Houby</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="hlavicka">
+    <h1>🍄 Atlas přírody</h1>
+    <p class="podtitul">Houby</p>
+  </header>
+
+  <!-- POHLED: SEZNAM HUB -->
+  <main id="pohled-seznam" class="pohled">
+
+    <div class="hledani">
+      <input type="search" id="vstup-hledani" placeholder="Hledat podle názvu…">
+    </div>
+
+    <section class="filtry">
+      <div class="filtr-pole">
+        <label for="filtr-mesic">Měsíc</label>
+        <select id="filtr-mesic"><option value="">Vše</option></select>
+      </div>
+      <div class="filtr-pole">
+        <label for="filtr-stanoviste">Stanoviště</label>
+        <select id="filtr-stanoviste"><option value="">Vše</option></select>
+      </div>
+      <div class="filtr-pole">
+        <label for="filtr-strom">Strom</label>
+        <select id="filtr-strom"><option value="">Vše</option></select>
+      </div>
+      <div class="filtr-pole">
+        <label for="filtr-jedlost">Jedlost</label>
+        <select id="filtr-jedlost"><option value="">Vše</option></select>
+      </div>
+      <label class="filtr-checkbox">
+        <input type="checkbox" id="filtr-lecive">
+        Jen léčivé
+      </label>
+      <button id="tlacitko-zrusit-filtry" type="button">Zrušit filtry</button>
+    </section>
+
+    <p id="pocet-vysledku" class="pocet-vysledku"></p>
+
+    <ul id="seznam-hub" class="seznam-hub"></ul>
+
+  </main>
+
+  <!-- POHLED: DETAIL HOUBY -->
+  <main id="pohled-detail" class="pohled" hidden>
+    <button id="tlacitko-zpet" type="button" class="tlacitko-zpet">← Zpět na seznam</button>
+    <div id="detail-obsah"></div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

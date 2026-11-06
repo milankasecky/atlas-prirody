@@ -1,0 +1,17 @@
+{
+  "id": "muchomurka-cervena",
+  "skupina": "houba",
+  "nazevCesky": "Muchomůrka červená",
+  "nazevLatinsky": "Amanita muscaria",
+  "mesiceVyskytu": ["zari", "rijen"],
+  "stanoviste": ["les-jehlicnaty", "les-listnaty"],
+  "popis": "Klobouk jasně červený s bílými bradavkami, třeň bílý s prstenem a pochvou u báze.",
+  "zamenyS": "Mladé plodnice mohou být zaměněny s muchomůrkou žlutou nebo s mladými jedlými muchomůrkami.",
+  "fotky": ["muchomurka-cervena-1.jpg"],
+  "poznamka": "",
+  "stitky": ["testovaci-data"],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": ["briza", "smrk", "borovice"],
+  "testovaciZaznam": true
+}

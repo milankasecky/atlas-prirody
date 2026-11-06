@@ -11,5 +11,7 @@
   "poznamka": "",
   "stitky": [],
   "jedlost": "vyborna",
-  "stromy": ["smrk", "borovice", "buk"]
+  "lecive": false,
+  "stromy": ["smrk", "borovice", "buk"],
+  "testovaciZaznam": true
 }

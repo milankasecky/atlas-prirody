@@ -1,0 +1,302 @@
+/* ---------- Základní nastavení ---------- */
+
+:root {
+  --barva-pozadi: #f6f5f0;
+  --barva-karta: #ffffff;
+  --barva-text: #2b2b26;
+  --barva-podtext: #6b6a62;
+  --barva-ramecek: #ddd9cc;
+  --barva-primarni: #4a6b3a;
+  --barva-primarni-tmava: #395729;
+
+  --barva-vyborna: #2f7d32;
+  --barva-jedla: #58994a;
+  --barva-podminecna: #c99a1e;
+  --barva-nejedla: #8a8a84;
+  --barva-jedovata: #c0392b;
+  --barva-smrtelna: #6e1414;
+  --barva-lecive: #1f6f78;
+
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--barva-pozadi);
+  color: var(--barva-text);
+}
+
+/* ---------- Hlavička ---------- */
+
+.hlavicka {
+  background: var(--barva-primarni);
+  color: white;
+  padding: 16px 16px 12px;
+  text-align: center;
+}
+
+.hlavicka h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.podtitul {
+  margin: 2px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* ---------- Obecný rozvrh ---------- */
+
+.pohled {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* ---------- Hledání a filtry ---------- */
+
+.hledani input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid var(--barva-ramecek);
+  border-radius: var(--radius);
+  background: var(--barva-karta);
+}
+
+.filtry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+  align-items: end;
+}
+
+.filtr-pole {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 130px;
+}
+
+.filtr-pole label {
+  font-size: 0.78rem;
+  color: var(--barva-podtext);
+}
+
+.filtr-pole select {
+  padding: 8px;
+  border: 1px solid var(--barva-ramecek);
+  border-radius: var(--radius);
+  background: var(--barva-karta);
+  font-size: 0.9rem;
+}
+
+.filtr-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--barva-podtext);
+  flex: 1 1 100%;
+}
+
+#tlacitko-zrusit-filtry {
+  padding: 8px 12px;
+  border: 1px solid var(--barva-ramecek);
+  border-radius: var(--radius);
+  background: var(--barva-karta);
+  color: var(--barva-text);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+#tlacitko-zrusit-filtry:hover {
+  background: #eee;
+}
+
+.pocet-vysledku {
+  margin: 14px 2px 6px;
+  font-size: 0.85rem;
+  color: var(--barva-podtext);
+}
+
+/* ---------- Seznam hub ---------- */
+
+.seznam-hub {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.karta-houby {
+  background: var(--barva-karta);
+  border: 1px solid var(--barva-ramecek);
+  border-radius: var(--radius);
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease;
+}
+
+.karta-houby:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.karta-houby__nahled {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: #ece9dd;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.karta-houby__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.karta-houby__nazev {
+  font-weight: 600;
+  margin: 0 0 2px;
+}
+
+.karta-houby__latinsky {
+  font-style: italic;
+  color: var(--barva-podtext);
+  font-size: 0.85rem;
+  margin: 0 0 6px;
+}
+
+.stitek {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  color: white;
+  font-weight: 600;
+}
+
+.stitek--vyborna { background: var(--barva-vyborna); }
+.stitek--jedla { background: var(--barva-jedla); }
+.stitek--podminecne-jedla { background: var(--barva-podminecna); }
+.stitek--nejedla { background: var(--barva-nejedla); }
+.stitek--jedovata { background: var(--barva-jedovata); }
+.stitek--smrtelne-jedovata { background: var(--barva-smrtelna); }
+.stitek--lecive { background: var(--barva-lecive); }
+.stitek--test { background: #a65c1e; }
+
+.prazdny-seznam {
+  text-align: center;
+  color: var(--barva-podtext);
+  padding: 30px 10px;
+}
+
+/* ---------- Detail houby ---------- */
+
+.tlacitko-zpet {
+  background: none;
+  border: none;
+  color: var(--barva-primarni-tmava);
+  font-size: 0.95rem;
+  padding: 6px 0;
+  cursor: pointer;
+}
+
+.detail-stitky {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 8px 0 14px;
+}
+
+.detail-nazev {
+  margin: 4px 0 0;
+}
+
+.detail-latinsky {
+  font-style: italic;
+  color: var(--barva-podtext);
+  margin: 0 0 10px;
+}
+
+.detail-fotky {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 14px;
+}
+
+.detail-fotky img {
+  height: 160px;
+  border-radius: var(--radius);
+  flex-shrink: 0;
+}
+
+.chybi-foto {
+  height: 160px;
+  width: 160px;
+  border-radius: var(--radius);
+  background: #ece9dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--barva-podtext);
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.detail-sekce {
+  margin-bottom: 16px;
+}
+
+.detail-sekce h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--barva-podtext);
+  margin: 0 0 6px;
+}
+
+.detail-sekce p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.chipy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  background: #ece9dd;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+}
+
+/* ---------- Větší obrazovky ---------- */
+
+@media (min-width: 640px) {
+  .karta-houby__nahled {
+    width: 80px;
+    height: 80px;
+  }
+}

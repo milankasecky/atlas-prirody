@@ -45,10 +45,22 @@ přibudou rostliny a živočichové.
 7. **Nasazení** – zveřejnění přes GitHub Pages.
 8. **Rozšíření** – příprava a doplnění kategorií rostliny a živočichové.
 
+## Datová struktura – houba
+
+Dohodnuté údaje pro jeden druh houby:
+
+- Název – český a latinský
+- Jedlost (jedlá / nejedlá / jedovatá / podmíněně jedlá apod.)
+- Popis vzhledu (klobouk, třeň, lupeny/rourky, barva, velikost...)
+- Výskyt a sezóna (typ stanoviště, měsíce výskytu)
+- Záměny s jinými houbami (na co si dát pozor)
+- Fotky (více fotek k jednomu druhu)
+- Vlastní poznámka (místo nálezu, datum, komentář)
+
 ## Stav projektu
 
-- 2026-11-06: Založen git repozitář, vytvořen tento CLAUDE.md. Zatím žádný
-  kód. Dohodnutá datová struktura pro houby: *(doplní se po rozhovoru s
-  uživatelem)*.
-- **Další krok:** domluvit s uživatelem, jaké údaje se budou u houby
-  evidovat, pak založit adresářovou strukturu dat (fáze 2).
+- 2026-11-06: Založen git repozitář, vytvořen tento CLAUDE.md. Dohodnuta
+  datová struktura pro houby (viz sekce výše). Zatím žádný kód.
+- **Další krok:** navrhnout a založit adresářovou strukturu dat (fáze 2) –
+  kam se budou ukládat JSON záznamy hub a fotky, včetně místa i pro budoucí
+  rostliny a živočichy.

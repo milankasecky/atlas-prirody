@@ -192,6 +192,12 @@ znovu vytvořit.
   soubory dostupné) i uživatelem přímo na mobilu: instalace přes "Přidat na
   plochu" a chod úplně bez internetu (režim letadlo) funguje, včetně PWA
   cache dat a fotek.
-- **Další krok:** fáze 5 – reálné zpracování fotek (zmenšení + odstranění
-  GPS/EXIF) a nahrazení testovacích záznamů hub reálnými daty a fotkami od
-  uživatele.
+- 2026-11-06: Fáze 5 hotová a odzkoušená na reálné fotce z mobilu – nástroj
+  `nastroje/zpracuj_fotky.py` zmenšil fotku Hřibu smrkového na dvě verze,
+  odstranil EXIF/GPS metadata, ověřil (0 EXIF položek, bez GPS), přesunul
+  originál do `archiv-fotky/` a doplnil `data/houby/hrib-smrkovy.json`.
+  Zpracovaná fotka uložena do gitu a nahrána na GitHub Pages.
+- **Další krok:** uživatel bude postupně doplňovat vlastní reálné houby a
+  fotky (přes `nastroje/zpracuj_fotky.py`) a nahrazovat jimi testovací
+  záznamy. Až bude dost reálných dat, smazat testovací záznamy
+  (`"testovaciZaznam": true`) a případně začít s rostlinami/živočichy.

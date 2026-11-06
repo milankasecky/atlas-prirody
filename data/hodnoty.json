@@ -1,0 +1,57 @@
+{
+  "_info": "Číselníky povolených hodnot pro záznamy v Atlasu přírody. Každá hodnota má 'id' (používá se v datech a pro filtrování) a 'nazev' (zobrazuje se uživateli). Nové hodnoty lze kdykoliv přidat na konec seznamu.",
+
+  "mesice": [
+    { "id": "leden", "nazev": "Leden" },
+    { "id": "unor", "nazev": "Únor" },
+    { "id": "brezen", "nazev": "Březen" },
+    { "id": "duben", "nazev": "Duben" },
+    { "id": "kveten", "nazev": "Květen" },
+    { "id": "cerven", "nazev": "Červen" },
+    { "id": "cervenec", "nazev": "Červenec" },
+    { "id": "srpen", "nazev": "Srpen" },
+    { "id": "zari", "nazev": "Září" },
+    { "id": "rijen", "nazev": "Říjen" },
+    { "id": "listopad", "nazev": "Listopad" },
+    { "id": "prosinec", "nazev": "Prosinec" }
+  ],
+
+  "stanoviste": [
+    { "id": "les-jehlicnaty", "nazev": "Jehličnatý les" },
+    { "id": "les-listnaty", "nazev": "Listnatý les" },
+    { "id": "les-smiseny", "nazev": "Smíšený les" },
+    { "id": "louka", "nazev": "Louka" },
+    { "id": "pole", "nazev": "Pole" },
+    { "id": "mokrad", "nazev": "Mokřad" },
+    { "id": "u-vody", "nazev": "U vody" },
+    { "id": "zahrada", "nazev": "Zahrada" },
+    { "id": "park", "nazev": "Park" },
+    { "id": "mestska-zastavba", "nazev": "Městská zástavba" },
+    { "id": "hory", "nazev": "Hory" }
+  ],
+
+  "stromy": [
+    { "id": "buk", "nazev": "Buk" },
+    { "id": "dub", "nazev": "Dub" },
+    { "id": "briza", "nazev": "Bříza" },
+    { "id": "habr", "nazev": "Habr" },
+    { "id": "lipa", "nazev": "Lípa" },
+    { "id": "topol", "nazev": "Topol" },
+    { "id": "olse", "nazev": "Olše" },
+    { "id": "smrk", "nazev": "Smrk" },
+    { "id": "borovice", "nazev": "Borovice" },
+    { "id": "jedle", "nazev": "Jedle" },
+    { "id": "modrin", "nazev": "Modřín" },
+    { "id": "ovocne", "nazev": "Ovocné stromy" }
+  ],
+
+  "jedlost": [
+    { "id": "vyborna", "nazev": "Výborná jedlá" },
+    { "id": "jedla", "nazev": "Jedlá" },
+    { "id": "podminecne-jedla", "nazev": "Podmínečně jedlá" },
+    { "id": "lecive", "nazev": "Léčivá" },
+    { "id": "nejedla", "nazev": "Nejedlá" },
+    { "id": "jedovata", "nazev": "Jedovatá" },
+    { "id": "smrtelne-jedovata", "nazev": "Smrtelně jedovatá" }
+  ]
+}

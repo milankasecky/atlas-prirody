@@ -45,22 +45,67 @@ přibudou rostliny a živočichové.
 7. **Nasazení** – zveřejnění přes GitHub Pages.
 8. **Rozšíření** – příprava a doplnění kategorií rostliny a živočichové.
 
-## Datová struktura – houba
+## Datová struktura
 
-Dohodnuté údaje pro jeden druh houby:
+Každý druh (houba, rostlina, živočich) je jeden JSON soubor v
+`data/<skupina>/<id>.json`.
 
-- Název – český a latinský
-- Jedlost (jedlá / nejedlá / jedovatá / podmíněně jedlá apod.)
-- Popis vzhledu (klobouk, třeň, lupeny/rourky, barva, velikost...)
-- Výskyt a sezóna (typ stanoviště, měsíce výskytu)
-- Záměny s jinými houbami (na co si dát pozor)
-- Fotky (více fotek k jednomu druhu)
-- Vlastní poznámka (místo nálezu, datum, komentář)
+**Společná pole** (houby, rostliny, živočichové):
+
+- `id` – jednoznačný identifikátor (= název souboru bez přípony)
+- `skupina` – `houba` / `rostlina` / `zivocich`
+- `nazevCesky`, `nazevLatinsky`
+- `mesiceVyskytu[]` – měsíce výskytu, hodnoty z číselníku `mesice`
+- `stanoviste[]` – typ prostředí, hodnoty z číselníku `stanoviste`
+- `popis` – volný text (vzhled, poznání druhu)
+- `zamenyS` – volný text (záměny s jinými druhy)
+- `fotky[]` – názvy souborů fotek (ve `fotky/<skupina>/`)
+- `poznamka` – volný text (vlastní poznámka k nálezu)
+- `stitky[]` – volné štítky (text bez omezení, pro cokoliv dalšího)
+
+**Pole jen pro houby:**
+
+- `jedlost` – jedna hodnota z číselníku `jedlost`
+- `stromy[]` – mykorhizní stromy, hodnoty z číselníku `stromy`
+
+**Číselníky pevných hodnot** jsou v `data/hodnoty.json` (společný soubor,
+lze kdykoliv rozšiřovat o nové hodnoty). Obsahuje:
+
+- `mesice` – 12 měsíců
+- `stanoviste` – jehličnatý/listnatý/smíšený les, louka, pole, mokřad,
+  u vody, zahrada, park, městská zástavba, hory
+- `stromy` (jen houby) – buk, dub, bříza, habr, lípa, topol, olše, smrk,
+  borovice, jedle, modřín, ovocné stromy
+- `jedlost` (jen houby) – výborná jedlá, jedlá, podmínečně jedlá, léčivá,
+  nejedlá, jedovatá, smrtelně jedovatá
+
+Tyto seznamy slouží i pro filtrování (např. „březen + louka + jedlé").
+Hodnoty lze přidávat kdykoliv; mazat/přejmenovávat `id` už existující
+hodnoty je třeba opatrně – vyžaduje ruční opravu záznamů, které ji používají.
+
+### Adresářová struktura
+
+```
+data/
+  hodnoty.json          – číselníky povolených hodnot
+  houby/*.json          – záznamy hub (1 soubor = 1 druh)
+  rostliny/*.json        – záznamy rostlin (zatím prázdné)
+  zivocichove/*.json     – záznamy živočichů (zatím prázdné)
+fotky/
+  houby/                 – fotky k houbám (název = podle pole "fotky")
+  rostliny/
+  zivocichove/
+```
+
+Ukázkový záznam: `data/houby/hrib-smrkovy.json`.
 
 ## Stav projektu
 
-- 2026-11-06: Založen git repozitář, vytvořen tento CLAUDE.md. Dohodnuta
-  datová struktura pro houby (viz sekce výše). Zatím žádný kód.
-- **Další krok:** navrhnout a založit adresářovou strukturu dat (fáze 2) –
-  kam se budou ukládat JSON záznamy hub a fotky, včetně místa i pro budoucí
-  rostliny a živočichy.
+- 2026-11-06: Založen git repozitář, `CLAUDE.md`. Dohodnuta a založena
+  datová struktura – společná pole pro všechny skupiny + pole jen pro houby,
+  číselníky v `data/hodnoty.json`, adresářová struktura `data/` a `fotky/`,
+  ukázkový záznam houby (Hřib smrkový). Zatím žádný zobrazovací kód (web
+  stránka, PWA).
+- **Další krok:** fáze 3 – základní statická stránka, která načte data z
+  `data/` a zobrazí seznam hub + detail houby (zatím bez PWA, jen v
+  prohlížeči).

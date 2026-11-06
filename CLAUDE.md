@@ -197,6 +197,10 @@ znovu vytvořit.
   odstranil EXIF/GPS metadata, ověřil (0 EXIF položek, bez GPS), přesunul
   originál do `archiv-fotky/` a doplnil `data/houby/hrib-smrkovy.json`.
   Zpracovaná fotka uložena do gitu a nahrána na GitHub Pages.
+- 2026-11-06: Doplněno zvětšení fotky na celou obrazovku (lightbox) po
+  kliknutí v detailu houby – ověřeno uživatelem na mobilu, funguje. Ověřeno
+  i automatické zaktualizování appky na mobilu (díky strategii "nejdřív
+  síť" stačí appku znovu otevřít s internetem, bez přeinstalace).
 - **Další krok:** uživatel bude postupně doplňovat vlastní reálné houby a
   fotky (přes `nastroje/zpracuj_fotky.py`) a nahrazovat jimi testovací
   záznamy. Až bude dost reálných dat, smazat testovací záznamy

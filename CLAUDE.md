@@ -148,8 +148,12 @@ skutečnými daty.
   správně načtou přes lokální server; samotnou instalaci do mobilu a chod
   bez internetu je nutné ověřit v reálném prohlížeči (nelze otestovat jen
   příkazovou řádkou).
-- **Další krok:** založit veřejný GitHub repozitář (účet milankasecky),
-  zapnout GitHub Pages a vyzkoušet instalaci appky na mobilu s testovacími
-  daty + ověřit offline chod. Pak zbývá fáze 5 (reálné zpracování fotek:
-  zmenšení + odstranění GPS/EXIF) a nahrazení testovacích záznamů hub
-  reálnými daty a fotkami.
+- 2026-11-06: Založen veřejný GitHub repozitář `milankasecky/atlas-prirody`,
+  zapnuty GitHub Pages (větev `main`, root). Appka běží na
+  https://milankasecky.github.io/atlas-prirody/ – ověřeno nasazení (všechny
+  soubory dostupné) i uživatelem přímo na mobilu: instalace přes "Přidat na
+  plochu" a chod úplně bez internetu (režim letadlo) funguje, včetně PWA
+  cache dat a fotek.
+- **Další krok:** fáze 5 – reálné zpracování fotek (zmenšení + odstranění
+  GPS/EXIF) a nahrazení testovacích záznamů hub reálnými daty a fotkami od
+  uživatele.

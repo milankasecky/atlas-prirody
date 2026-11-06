@@ -137,8 +137,19 @@ skutečnými daty.
   propojení záměn mezi záznamy (`zamenyId[]`) – v detailu houby lze
   kliknutím na odkaz otevřít detail zaměnitelného druhu přímo pod aktuálním
   záznamem, se zavřením křížkem. Otestováno přes lokální server.
-- **Další krok:** fáze 4 (rozšíření vyhledávání/filtrů) je už z větší části
-  hotová společně s fází 3 – zbývá fáze 5 (reálné zpracování fotek: zmenšení
-  + odstranění GPS/EXIF) a fáze 6 (PWA – manifest, ikony, Service Worker,
-  offline režim). Uživatel ještě musí doplnit vlastní fotky a reálné houby
-  namísto testovacích záznamů.
+- 2026-11-06: Fáze 6 (základ PWA) – přidán `manifest.json`, ikony
+  `icons/icon-192.png` a `icons/icon-512.png` (vygenerované jednoduchým
+  skriptem, jen placeholder – půjde později nahradit vlastní grafikou),
+  `sw.js` (service worker se strategií "nejdřív síť, při výpadku cache").
+  V `js/app.js` přidána registrace service workeru a funkce
+  `ulozVseProOffline()`, která při každém spuštění s internetem doplní do
+  cache úplně všechna data i fotky (i nově přidané), aby šly použít i bez
+  internetu při příštím otevření. Ověřeno, že se manifest/ikony/sw.js
+  správně načtou přes lokální server; samotnou instalaci do mobilu a chod
+  bez internetu je nutné ověřit v reálném prohlížeči (nelze otestovat jen
+  příkazovou řádkou).
+- **Další krok:** založit veřejný GitHub repozitář (účet milankasecky),
+  zapnout GitHub Pages a vyzkoušet instalaci appky na mobilu s testovacími
+  daty + ověřit offline chod. Pak zbývá fáze 5 (reálné zpracování fotek:
+  zmenšení + odstranění GPS/EXIF) a nahrazení testovacích záznamů hub
+  reálnými daty a fotkami.

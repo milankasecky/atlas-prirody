@@ -1,6 +1,10 @@
 // Atlas přírody – jednoduchá aplikace pro zobrazení a filtrování hub.
 // Žádné knihovny, jen čistý JavaScript.
 
+// Stejný název cache jako v sw.js – používá se pro ruční doplnění
+// všech dat a fotek, aby byly dostupné i bez internetu.
+const NAZEV_CACHE = "atlas-prirody-cache";
+
 // Globální proměnné – data se načtou jednou při startu.
 let hodnoty = null; // číselníky (měsíce, stanoviště, stromy, jedlost)
 let houby = []; // všechny načtené houby
@@ -334,11 +338,57 @@ function pripojUdalosti() {
   });
 }
 
+// Zaregistruje service worker, díky kterému appka funguje i bez internetu.
+function zaregistrujServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
+
+// Při každém spuštění (pokud je internet) doplní do cache úplně všechna
+// data a fotky, aby byly k dispozici i při dalším otevření bez internetu.
+// Chybějící soubory (např. ještě nevložené fotky) se tiše přeskočí.
+async function ulozVseProOffline() {
+  if (!("caches" in window)) return;
+
+  const zakladniSoubory = [
+    "./",
+    "index.html",
+    "css/style.css",
+    "js/app.js",
+    "manifest.json",
+    "icons/icon-192.png",
+    "icons/icon-512.png",
+    "data/hodnoty.json",
+    "data/houby/index.json",
+  ];
+  const zaznamyHub = houby.map((h) => `data/houby/${h.id}.json`);
+  const fotkyHub = houby.flatMap((h) =>
+    (h.fotky || []).map((f) => `fotky/houby/${f}`)
+  );
+
+  const cache = await caches.open(NAZEV_CACHE);
+
+  await Promise.allSettled(
+    [...zakladniSoubory, ...zaznamyHub, ...fotkyHub].map(async (adresa) => {
+      try {
+        const odpoved = await fetch(adresa);
+        if (odpoved.ok) await cache.put(adresa, odpoved);
+      } catch {
+        // Soubor není dostupný – přeskočit bez chyby.
+      }
+    })
+  );
+}
+
 async function start() {
+  zaregistrujServiceWorker();
   await nactiData();
   naplnFiltry();
   pripojUdalosti();
   vykresliSeznam();
+  ulozVseProOffline();
 }
 
 start();

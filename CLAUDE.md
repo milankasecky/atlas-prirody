@@ -57,7 +57,10 @@ Každý druh (houba, rostlina, živočich) je jeden JSON soubor v
 - `nazevCesky`, `nazevLatinsky`
 - `mesiceVyskytu[]` – měsíce výskytu, hodnoty z číselníku `mesice`
 - `stanoviste[]` – typ prostředí, hodnoty z číselníku `stanoviste`
-- `popis` – volný text (vzhled, poznání druhu)
+- `popis` – určovací znaky: volný text o znacích, podle kterých se druh
+  bezpečně pozná (vzhled je vidět z fotek). V aplikaci i na kartě se
+  oddíl jmenuje "Určovací znaky"; klíč v JSON zůstal `popis`, aby se
+  nemusela přepisovat existující data.
 - `zamenyS` – volný text (čím se liší od zaměnitelných druhů)
 - `zamenyId[]` – odkazy (id) na konkrétní záznamy zaměnitelných druhů; v
   detailu se zobrazí jako tlačítko, po kliknutí se pod aktuálním záznamem

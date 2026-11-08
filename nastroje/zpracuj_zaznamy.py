@@ -63,7 +63,7 @@ POLE = {
     "Měsíce výskytu": ("mesiceVyskytu", "ciselnikN:mesice"),
     "Stanoviště": ("stanoviste", "ciselnikN:stanoviste"),
     "Stromy": ("stromy", "ciselnikN:stromy"),
-    "Popis": ("popis", "text"),
+    "Určovací znaky": ("popis", "text"),
     "Záměna s": ("zamenyS", "text"),
     "Záměna odkaz": ("zamenyId", "odkazy"),
     "Štítky": ("stitky", "seznam"),
@@ -168,8 +168,10 @@ def vytvor_vzor(hodnoty):
         f"# {vypis_hodnot(hodnoty['stromy'])}",
         "Stromy: ",
         "",
-        "# Vzhled, jak druh poznat (volný text, může mít víc řádků)",
-        "Popis: ",
+        "# Znaky, na které se houbař musí zaměřit, aby druh bezpečně",
+        "# určil (např. barva rourek, síťka na třeni, vůně, změna barvy",
+        "# po rozkrojení). Vzhled je vidět z fotek. Může mít víc řádků.",
+        "Určovací znaky: ",
         "",
         "# Čím se liší od podobných druhů (volný text)",
         "Záměna s: ",
@@ -209,6 +211,8 @@ def vytvor_vzor(hodnoty):
 def rozparsuj_kartu(text, chyby):
     """Rozdělí kartu na pole. Vrátí {název pole: (hodnota, číslo řádku)}."""
     nazvy_podle_klice = {normalizuj(n): n for n in POLE}
+    # Starší název pole – karty s "Popis:" fungují dál.
+    nazvy_podle_klice[normalizuj("Popis")] = "Určovací znaky"
     pole = {}
     aktualni = None
 

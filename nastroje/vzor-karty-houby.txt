@@ -44,8 +44,10 @@ Stanoviště:
 # Buk (buk), Dub (dub), Bříza (briza), Habr (habr), Lípa (lipa), Topol (topol), Olše (olse), Smrk (smrk), Borovice (borovice), Jedle (jedle), Modřín (modrin), Ovocné stromy (ovocne)
 Stromy: 
 
-# Vzhled, jak druh poznat (volný text, může mít víc řádků)
-Popis: 
+# Znaky, na které se houbař musí zaměřit, aby druh bezpečně
+# určil (např. barva rourek, síťka na třeni, vůně, změna barvy
+# po rozkrojení). Vzhled je vidět z fotek. Může mít víc řádků.
+Určovací znaky: 
 
 # Čím se liší od podobných druhů (volný text)
 Záměna s: 

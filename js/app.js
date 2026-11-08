@@ -265,7 +265,7 @@ function vykresliDetail(houba) {
     <div class="detail-fotky">${fotky}</div>
 
     <div class="detail-sekce">
-      <h2>Popis</h2>
+      <h2>Určovací znaky</h2>
       <p>${houba.popis || "–"}</p>
     </div>
 

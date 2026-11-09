@@ -1,0 +1,38 @@
+{
+  "id": "outkovka-pestra",
+  "skupina": "houba",
+  "nazevCesky": "Outkovka pestrá",
+  "nazevLatinsky": "Trametes versicolor",
+  "mesiceVyskytu": [
+    "leden",
+    "unor",
+    "brezen",
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "park"
+  ],
+  "popis": "Tenké kožovité kloboučky ve střechovitých skupinách na dřevě listnáčů.\nPovrch sametový, soustředně pestře pruhovaný.\nSpodní strana bílá až krémová s drobnými póry.",
+  "zamenyS": "Pevník chlupatý - spodní strana hladká, žlutooranžová, bez pórů.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": true,
+  "stromy": [
+    "buk",
+    "dub",
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

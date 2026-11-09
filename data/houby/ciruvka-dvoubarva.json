@@ -1,0 +1,27 @@
+{
+  "id": "ciruvka-dvoubarva",
+  "skupina": "houba",
+  "nazevCesky": "Čirůvka dvoubarvá",
+  "nazevLatinsky": "Lepista personata",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "louka",
+    "kulturni-krajina"
+  ],
+  "popis": "Klobouk světle šedohnědý, lupeny bledé.\nTřeň výrazně FIALOVÝ.\nRoste na loukách a pastvinách, často v kruzích.\nVýtrusný prach růžovobéžový.",
+  "zamenyS": "Čirůvka fialová - celá fialová, roste v lese.\nPavučince (některé jedovaté) - rezavě hnědý výtrusný prach, u mladých pavučinová vlákna mezi kloboukem a třeněm.",
+  "zamenyId": [
+    "ciruvka-fialova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

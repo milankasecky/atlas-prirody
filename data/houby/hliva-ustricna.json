@@ -1,0 +1,33 @@
+{
+  "id": "hliva-ustricna",
+  "skupina": "houba",
+  "nazevCesky": "Hlíva ústřičná",
+  "nazevLatinsky": "Pleurotus ostreatus",
+  "mesiceVyskytu": [
+    "rijen",
+    "listopad",
+    "prosinec",
+    "leden",
+    "unor",
+    "brezen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "park",
+    "u-vody"
+  ],
+  "popis": "Bokem přirostlé ploché klobouky ve střechovitých trsech na dřevě listnáčů.\nKlobouk šedý až šedohnědý.\nLupeny bílé, sbíhají na krátký postranní třeň.\nRoste hlavně v chladném období.",
+  "zamenyS": "V přírodě bez nebezpečné záměny - podobné jsou jiné jedlé hlívy.\nOutkovky a choroše - mají na spodní straně póry, ne lupeny.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": true,
+  "stromy": [
+    "buk",
+    "topol",
+    "vrba"
+  ],
+  "testovaciZaznam": false
+}

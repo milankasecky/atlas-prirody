@@ -1,0 +1,33 @@
+{
+  "id": "lesklokorka-jehlicnanova",
+  "skupina": "houba",
+  "nazevCesky": "Lesklokorka jehličnanová",
+  "nazevLatinsky": "Ganoderma carnosum",
+  "mesiceVyskytu": [
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Ledvinitý klobouk s LESKLÝM lakovým povrchem, červenohnědý až černohnědý.\nPostranní třeň.\nRoste u báze jehličnanů, hlavně jedlí.",
+  "zamenyS": "Lesklokorka lesklá - roste na listnáčích.\nLesklokorka ploská - matná, bez třeně, vytrvalá.",
+  "zamenyId": [
+    "lesklokorka-ploska"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": true,
+  "stromy": [
+    "jedle",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

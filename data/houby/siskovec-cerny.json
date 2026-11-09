@@ -1,0 +1,31 @@
+{
+  "id": "siskovec-cerny",
+  "skupina": "houba",
+  "nazevCesky": "Šiškovec černý",
+  "nazevLatinsky": "Strobilomyces strobilaceus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Celý šedočerný, klobouk s hrubými vlnatými šupinami (připomíná šišku).\nRourky šedé, otlakem červenají a pak černají.\nNízká kvalita, jíst jen mladé.",
+  "zamenyS": "Bez nebezpečné záměny.",
+  "zamenyId": [
+    "hrib-nachovytrusy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

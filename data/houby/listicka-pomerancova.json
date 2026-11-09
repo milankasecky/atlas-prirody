@@ -1,0 +1,32 @@
+{
+  "id": "listicka-pomerancova",
+  "skupina": "houba",
+  "nazevCesky": "Lištička pomerančová",
+  "nazevLatinsky": "Hygrophoropsis aurantiaca",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Sytě oranžová, klobouk plstnatý.\nPRAVÉ lupeny - tenké, husté, vidličnatě dělené.\nDužnina měkká, bez výrazné vůně.\nRoste v mechu a na tlejícím dřevě jehličnanů.\nNízká kvalita, citlivým může způsobit potíže.",
+  "zamenyS": "Liška obecná - místo lupenů nízké lišty, dužnina pevná, vaječně žlutá barva.",
+  "zamenyId": [
+    "liska-obecna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "strmelka-anyzka",
+  "skupina": "houba",
+  "nazevCesky": "Strmělka anýzka",
+  "nazevLatinsky": "Clitocybe odora",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Klobouk modrozelený až šedozelený.\nSilná ANÝZOVÁ vůně.\nLupeny krémové, mírně sbíhavé.",
+  "zamenyS": "Strmělka listomilná (jedovatá) - bělavá, ojíněná, bez zeleného zbarvení. Bílé strmělky nikdy nesbírat!\nLímcovka měděnková - modrozelená, ale slizká, s prstenem.",
+  "zamenyId": [
+    "strmelka-listomilna",
+    "strmelka-mlzenka",
+    "limcovka-medenkova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub"
+  ],
+  "testovaciZaznam": false
+}

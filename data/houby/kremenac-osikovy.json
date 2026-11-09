@@ -1,0 +1,31 @@
+{
+  "id": "kremenac-osikovy",
+  "skupina": "houba",
+  "nazevCesky": "Křemenáč osikový",
+  "nazevLatinsky": "Leccinum aurantiacum",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Roste pod OSIKAMI (topoly).\nKlobouk cihlově oranžový.\nŠupinky na třeni zprvu bělavé, pak rezavě hnědé.\nDužnina na řezu šedne až černá.\nJíst jen dobře tepelně upravený.",
+  "zamenyS": "Křemenáč březový - pod břízami, šupinky na třeni od začátku černé.",
+  "zamenyId": [
+    "kremenac-brezovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "topol"
+  ],
+  "testovaciZaznam": false
+}

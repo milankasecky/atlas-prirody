@@ -1,0 +1,33 @@
+{
+  "id": "hrib-krist",
+  "skupina": "houba",
+  "nazevCesky": "Hřib kříšť",
+  "nazevLatinsky": "Caloboletus calopus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Klobouk šedobéžový.\nPóry ŽLUTÉ.\nTřeň červený se zřetelnou bělavou SÍŤKOU.\nDužnina na řezu modrá, chuť velmi hořká.",
+  "zamenyS": "Hřib kovář - póry červené, na třeni tečky místo síťky.\nHřib smrkový - dužnina nemodrá, chuť mírná.",
+  "zamenyId": [
+    "hrib-kovar",
+    "hrib-smrkovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "jedle",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

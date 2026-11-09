@@ -1,0 +1,28 @@
+{
+  "id": "destice-chrapacova",
+  "skupina": "houba",
+  "nazevCesky": "Destice chřapáčová",
+  "nazevLatinsky": "Disciotis venosa",
+  "mesiceVyskytu": [
+    "brezen",
+    "duben",
+    "kveten"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "u-vody"
+  ],
+  "popis": "Hnědá miskovitá plodnice bez třeně, uvnitř žilkovaná.\nSilný zápach po CHLÓRU (bělidle), který vařením zmizí.\nRoste na jaře, často s smrži.\nSyrová je jedovatá, jíst jen dobře tepelně upravenou.",
+  "zamenyS": "Ucháč obecný (smrtelně jedovatý) - klobouk mozkovitě zprohýbaný, na třeni.\nMisky - bez chlórového zápachu.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "jasan",
+    "olse"
+  ],
+  "testovaciZaznam": false
+}

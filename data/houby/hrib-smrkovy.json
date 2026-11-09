@@ -8,32 +8,34 @@
     "cervenec",
     "srpen",
     "zari",
-    "rijen"
+    "rijen",
+    "listopad"
   ],
   "stanoviste": [
     "les-jehlicnaty",
-    "les-smiseny"
+    "les-smiseny",
+    "les-listnaty"
   ],
-  "popis": "Klobouk hnědý až kaštanový, na omak sametový. Třeň silný, síťovaný, světlý. Rourky bílé, později žlutozelené.",
-  "zamenyS": "Žlučník hořký – podobný vzhled, ale síťování na třeni je tmavší a dužnina po rozkrojení zrůžoví a chutná hořce.",
-  "zamenyId": [],
+  "popis": "Rourky bílé, později žlutozelené, NEMODRAJÍ.\nTřeň světlý, v horní části jemná BÍLÁ síťka.\nDužnina bílá, na řezu nemění barvu.\nChuť mírná, oříšková.",
+  "zamenyS": "Hřib žlučník (nejedlý) - rourky růžové, na třeni hrubá TMAVÁ síťka, chuť velmi hořká (stačí olíznout).\nHřib kříšť (nejedlý) - póry žluté, dužnina modrá.",
+  "zamenyId": [
+    "hrib-zlucnik",
+    "hrib-krist",
+    "hrib-hnedy"
+  ],
   "fotky": [
     "hrib-smrkovy-1"
   ],
-  "zaznamyNalezu": [
-    {
-      "datum": "2026-09-12",
-      "misto": "Smrkový les u Kolína, okraj mlází",
-      "podminky": "Po dešti, teplo – ukázkový testovací záznam nálezu."
-    }
-  ],
+  "zaznamyNalezu": [],
   "stitky": [],
   "jedlost": "vyborna",
   "lecive": false,
   "stromy": [
     "smrk",
-    "borovice",
-    "buk"
+    "buk",
+    "dub",
+    "briza",
+    "borovice"
   ],
-  "testovaciZaznam": true
+  "testovaciZaznam": false
 }

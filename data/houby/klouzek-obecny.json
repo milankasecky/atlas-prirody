@@ -1,0 +1,31 @@
+{
+  "id": "klouzek-obecny",
+  "skupina": "houba",
+  "nazevCesky": "Klouzek obecný",
+  "nazevLatinsky": "Suillus luteus",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Roste jen pod BOROVICÍ.\nKlobouk čokoládově hnědý, slizký.\nVýrazný blanitý prsten, bělavý až fialovějící.\nPóry žluté.\nPřed úpravou stáhnout slizkou pokožku.",
+  "zamenyS": "Klouzek sličný - zlatožlutý až oranžový, roste pod modříny.",
+  "zamenyId": [
+    "klouzek-slicny"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

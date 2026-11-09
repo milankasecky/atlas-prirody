@@ -1,0 +1,38 @@
+{
+  "id": "trepenitka-makova",
+  "skupina": "houba",
+  "nazevCesky": "Třepenitka maková",
+  "nazevLatinsky": "Hypholoma capnoides",
+  "mesiceVyskytu": [
+    "brezen",
+    "duben",
+    "kveten",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "hory"
+  ],
+  "popis": "Roste v trsech na pařezech jehličnanů.\nKlobouk okrově žlutý.\nLupeny v mládí bělavé, pak šedé až šedofialové - nikdy zelenavé.\nChuť mírná, ne hořká.",
+  "zamenyS": "Třepenitka svazčitá (jedovatá) - lupeny zelenožluté, chuť hořká.\nČepičatka jehličnanová (smrtelně jedovatá) - prsten, rezavě hnědé lupeny, moučná vůně.",
+  "zamenyId": [
+    "cepicatka-jehlicnanova",
+    "openka-menliva",
+    "penizovka-sametonoha",
+    "trepenitka-svazcita"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

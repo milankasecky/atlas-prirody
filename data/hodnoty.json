@@ -27,7 +27,8 @@
     { "id": "zahrada", "nazev": "Zahrada" },
     { "id": "park", "nazev": "Park" },
     { "id": "mestska-zastavba", "nazev": "Městská zástavba" },
-    { "id": "hory", "nazev": "Hory" }
+    { "id": "hory", "nazev": "Hory" },
+    { "id": "kulturni-krajina", "nazev": "Kulturní krajina" }
   ],
 
   "stromy": [
@@ -42,7 +43,13 @@
     { "id": "borovice", "nazev": "Borovice" },
     { "id": "jedle", "nazev": "Jedle" },
     { "id": "modrin", "nazev": "Modřín" },
-    { "id": "ovocne", "nazev": "Ovocné stromy" }
+    { "id": "ovocne", "nazev": "Ovocné stromy" },
+    { "id": "bez-cerny", "nazev": "Černý bez" },
+    { "id": "javor", "nazev": "Javor" },
+    { "id": "jasan", "nazev": "Jasan" },
+    { "id": "vrba", "nazev": "Vrba" },
+    { "id": "trnka", "nazev": "Trnka" },
+    { "id": "hloh", "nazev": "Hloh" }
   ],
 
   "jedlost": [

@@ -1,0 +1,29 @@
+{
+  "id": "pecarka-polni",
+  "skupina": "houba",
+  "nazevCesky": "Pečárka polní",
+  "nazevLatinsky": "Agaricus campestris",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "louka",
+    "pole"
+  ],
+  "popis": "Roste na loukách a pastvinách, ne v lese.\nKlobouk bílý.\nLupeny v mládí RŮŽOVÉ, pak čokoládově hnědé - nikdy bílé.\nPrsten slabý, brzy mizí.\nTřeň bez hlízy a bez pochvy.\nDužnina bílá, slabě růžovějící.",
+  "zamenyS": "Muchomůrka zelená a jízlivá (smrtelně jedovaté) - lupeny po celý život BÍLÉ, třeň s hlízou a pochvou. Vždy vyndat celou houbu ze země!\nPečárka zápašná (jedovatá) - báze třeně na řezu sytě žloutne, zápach po inkoustu.\nPečárka lesní - roste v lese, dužnina výrazně červená.",
+  "zamenyId": [
+    "pecarka-lesni"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

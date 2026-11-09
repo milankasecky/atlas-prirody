@@ -1,0 +1,33 @@
+{
+  "id": "bedla-cervenajici",
+  "skupina": "houba",
+  "nazevCesky": "Bedla červenající",
+  "nazevLatinsky": "Chlorophyllum rachodes",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk s hrubými odstávajícími šupinami na světlém podkladu.\nTřeň hladký, bez hnědé hadovité kresby, dole s ostře ohraničenou hlízou.\nPrsten dvojitý, posuvný.\nDužnina po rozříznutí rychle oranžově až červeně nabíhá.\nCitlivým lidem může způsobit zažívací potíže.",
+  "zamenyS": "Bedla vysoká - třeň s hnědou hadovitou kresbou, dužnina na řezu nečervená.\nBedla zahradní (jedovatá) - roste mimo les (zahrady, komposty), hlíza na bázi třeně mohutná a hranatá.",
+  "zamenyId": [
+    "bedla-vysoka",
+    "bedla-zahradni"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

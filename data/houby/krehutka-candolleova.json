@@ -1,0 +1,31 @@
+{
+  "id": "krehutka-candolleova",
+  "skupina": "houba",
+  "nazevCesky": "Křehutka Candolleova",
+  "nazevLatinsky": "Psathyrella candolleana",
+  "mesiceVyskytu": [
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "park",
+    "zahrada",
+    "les-listnaty"
+  ],
+  "popis": "Křehký klobouk slaměně bělavý, na okraji bílé zbytky závoje.\nLupeny šedofialové, pak hnědé.\nTřeň tenký, bílý, dutý, velmi křehký.\nRoste ve skupinách u pařezů a na zbytcích dřeva.\nNízká kvalita.",
+  "zamenyS": "Polnička raná - pevnější, má blanitý prsten.\nHnojníky - lupeny se rozpouštějí v černou tekutinu.",
+  "zamenyId": [
+    "polnicka-rana"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,35 @@
+{
+  "id": "zavojenka-olovova",
+  "skupina": "houba",
+  "nazevCesky": "Závojenka olovová",
+  "nazevLatinsky": "Entoloma sinuatum",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "park"
+  ],
+  "popis": "Robustní houba, klobouk olověně šedobílý, hedvábně lesklý.\nLupeny řídké, v mládí nažloutlé, pak lososově růžové.\nMoučná vůně.\nRoste v teplých listnatých lesích.",
+  "zamenyS": "Čirůvka májovka - roste na jaře, lupeny husté a stále bílé.\nZávojenka podtrnka - roste na jaře pod trnkami a hlohy.\nStrmělka mlženka - lupeny krémové, sbíhavé, nasládlá vůně.",
+  "zamenyId": [
+    "ciruvka-majovka",
+    "zavojenka-podtrnka",
+    "strmelka-mlzenka"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [
+    "dub",
+    "buk",
+    "habr",
+    "lipa"
+  ],
+  "testovaciZaznam": false
+}

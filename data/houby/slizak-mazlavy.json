@@ -1,0 +1,28 @@
+{
+  "id": "slizak-mazlavy",
+  "skupina": "houba",
+  "nazevCesky": "Slizák mazlavý",
+  "nazevLatinsky": "Gomphidius glutinosus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Klobouk šedohnědý až fialově hnědý, silně SLIZKÝ.\nLupeny sbíhavé, bělavé, pak šedé až černé.\nBáze třeně uvnitř citronově ŽLUTÁ.\nPod kloboukem slizový závoj.",
+  "zamenyS": "Klouzky - mají rourky, ne lupeny.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

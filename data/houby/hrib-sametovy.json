@@ -1,0 +1,33 @@
+{
+  "id": "hrib-sametovy",
+  "skupina": "houba",
+  "nazevCesky": "Hřib sametový",
+  "nazevLatinsky": "Xerocomellus pruinatus",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk tmavě vínově hnědý, sametový, jemně ojíněný.\nPóry citronově žluté, otlakem modrají.\nTřeň žlutý s červenými tečkami.\nDužnina žlutá.",
+  "zamenyS": "Hřib žlutomasý - klobouk olivový, rozpraskaný, v trhlinách načervenalý.\nHřib plstnatý - klobouk olivový, póry široké.",
+  "zamenyId": [
+    "hrib-zlutomasy",
+    "hrib-plstnaty"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

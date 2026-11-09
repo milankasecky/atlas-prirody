@@ -3,16 +3,30 @@
   "skupina": "houba",
   "nazevCesky": "Muchomůrka červená",
   "nazevLatinsky": "Amanita muscaria",
-  "mesiceVyskytu": ["zari", "rijen"],
-  "stanoviste": ["les-jehlicnaty", "les-listnaty"],
-  "popis": "Klobouk jasně červený s bílými bradavkami, třeň bílý s prstenem a pochvou u báze.",
-  "zamenyS": "Mladé plodnice mohou být zaměněny s muchomůrkou žlutou nebo s mladými jedlými muchomůrkami.",
-  "zamenyId": [],
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Klobouk červený s bílými bradavkami (déšť je může spláchnout).\nLupeny bílé.\nNa třeni bílý prsten.\nHlíza s bradavčitými pásy.",
+  "zamenyS": "Muchomůrka královská (jedovatá) - klobouk hnědý se žlutavými bradavkami.\nMuchomůrka císařka - u nás nerostoucí, má žluté lupeny.",
+  "zamenyId": [
+    "muchomurka-kralovska"
+  ],
   "fotky": [],
   "zaznamyNalezu": [],
-  "stitky": ["testovaci-data"],
+  "stitky": [],
   "jedlost": "jedovata",
   "lecive": false,
-  "stromy": ["briza", "smrk", "borovice"],
-  "testovaciZaznam": true
+  "stromy": [
+    "briza",
+    "smrk"
+  ],
+  "testovaciZaznam": false
 }

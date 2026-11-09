@@ -1,0 +1,25 @@
+{
+  "id": "voskovka-sarlatova",
+  "skupina": "houba",
+  "nazevCesky": "Voskovka šarlatová",
+  "nazevLatinsky": "Hygrocybe coccinea",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "louka"
+  ],
+  "popis": "Klobouk šarlatově červený, voskovitý, neslizký.\nLupeny červené, k okraji žlutavé.\nRoste na nehnojených loukách a pastvinách.\nVoskovky jsou ohrožené - nesbírat.",
+  "zamenyS": "Jiné červené voskovky - liší se slizkostí a barvou lupenů.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

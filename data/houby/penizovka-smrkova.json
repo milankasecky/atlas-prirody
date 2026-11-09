@@ -1,0 +1,27 @@
+{
+  "id": "penizovka-smrkova",
+  "skupina": "houba",
+  "nazevCesky": "Penízovka smrková",
+  "nazevLatinsky": "Strobilurus esculentus",
+  "mesiceVyskytu": [
+    "unor",
+    "brezen",
+    "duben",
+    "kveten"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Malé hnědé kloboučky na jaře.\nRoste na zahrabaných SMRKOVÝCH ŠIŠKÁCH.\nTřeň dlouhý, tuhý, kořenující až k šišce.\nJedlé jsou jen klobouky.",
+  "zamenyS": "Jiné drobné houby na šiškách - rostou spíše na podzim nebo na borových šiškách.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

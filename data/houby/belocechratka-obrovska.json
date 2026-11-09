@@ -1,0 +1,27 @@
+{
+  "id": "belocechratka-obrovska",
+  "skupina": "houba",
+  "nazevCesky": "Běločechratka obrovská",
+  "nazevLatinsky": "Leucopaxillus giganteus",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "louka",
+    "kulturni-krajina"
+  ],
+  "popis": "Obrovský nálevkovitý klobouk (až 40 cm), bílý až krémový.\nLupeny husté, krémové, sbíhavé.\nKrátký silný třeň.\nRoste v řadách a kruzích na loukách a pastvinách.",
+  "zamenyS": "Strmělka mlženka - šedá, roste v lese.\nBílé strmělky (jedovaté) - mnohem menší.",
+  "zamenyId": [
+    "strmelka-mlzenka"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

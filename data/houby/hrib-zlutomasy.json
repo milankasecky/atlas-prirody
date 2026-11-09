@@ -1,0 +1,36 @@
+{
+  "id": "hrib-zlutomasy",
+  "skupina": "houba",
+  "nazevCesky": "Hřib žlutomasý",
+  "nazevLatinsky": "Xerocomellus chrysenteron",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk olivově hnědý, ve stáří políčkovitě ROZPRASKANÝ, v trhlinách načervenalý.\nPóry žluté, otlakem modrají.\nTřeň žlutý, dole načervenalý.\nDužnina žlutá.",
+  "zamenyS": "Hřib sametový - klobouk vínově hnědý, sametový.\nHřib plstnatý - v trhlinách klobouku bez červené.",
+  "zamenyId": [
+    "hrib-sametovy",
+    "hrib-plstnaty"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "posvatka-plava",
+  "skupina": "houba",
+  "nazevCesky": "Pošvatka plavá",
+  "nazevLatinsky": "Amanita fulva",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk oranžově hnědý, okraj výrazně rýhovaný.\nBEZ prstenu.\nTřeň vyrůstá z volné bílé blanité POCHVY.\nLupeny bílé.\nSyrová jedovatá, jíst jen dobře tepelně upravenou. Začátečník by ji sbírat neměl.",
+  "zamenyS": "Muchomůrka zelená (smrtelně jedovatá) - má prsten a hlízu, klobouk zelenavý. U muchomůrek a pošvatek vždy vyndat celou houbu ze země!",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "briza",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "trepenitka-svazcita",
+  "skupina": "houba",
+  "nazevCesky": "Třepenitka svazčitá",
+  "nazevLatinsky": "Hypholoma fasciculare",
+  "mesiceVyskytu": [
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny",
+    "les-jehlicnaty"
+  ],
+  "popis": "Velké trsy na pařezech listnáčů i jehličnanů.\nKlobouk sírově žlutý, střed oranžovější.\nLupeny sírově žluté až ZELENAVÉ, později olivově tmavé.\nDužnina žlutá, velmi hořká.",
+  "zamenyS": "Třepenitka maková - lupeny šedé (nikdy zelenavé), roste jen na jehličnanech, chuť mírná.\nOpeňka měnlivá - šupinky na třeni, lupeny hnědé.",
+  "zamenyId": [
+    "cepicatka-jehlicnanova",
+    "openka-menliva",
+    "penizovka-sametonoha",
+    "trepenitka-makova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

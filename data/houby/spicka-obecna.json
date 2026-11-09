@@ -1,0 +1,32 @@
+{
+  "id": "spicka-obecna",
+  "skupina": "houba",
+  "nazevCesky": "Špička obecná",
+  "nazevLatinsky": "Marasmius oreades",
+  "mesiceVyskytu": [
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "louka",
+    "park",
+    "zahrada"
+  ],
+  "popis": "Roste v KRUZÍCH na trávnících a loukách.\nKlobouk okrový s hrbolkem.\nLupeny ŘÍDKÉ, nepřirostlé.\nTřeň tuhý - dá se zakroutit a nezlomí se.\nZa sucha uschne a po dešti znovu oživne.\nJedlé jsou jen klobouky.",
+  "zamenyS": "Bílé strmělky (jedovaté) - rostou také v trávnících, ale mají HUSTÉ sbíhavé lupeny a bělavý klobouk.",
+  "zamenyId": [
+    "strmelka-listomilna",
+    "lakovka-obecna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

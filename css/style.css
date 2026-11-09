@@ -404,3 +404,8 @@ body {
     height: 80px;
   }
 }
+
+/* Víceřádkový text z karet (určovací znaky, záměny) – zachová zalomení řádků. */
+.viceradkovy {
+  white-space: pre-line;
+}

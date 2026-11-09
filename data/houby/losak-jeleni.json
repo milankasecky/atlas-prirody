@@ -1,0 +1,27 @@
+{
+  "id": "losak-jeleni",
+  "skupina": "houba",
+  "nazevCesky": "Lošák jelení",
+  "nazevLatinsky": "Sarcodon imbricatus",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Velký klobouk s hrubými odstávajícími tmavě hnědými šupinami.\nNa spodní straně místo rourek drobné OSTNY.\nPoužívá se hlavně sušený jako koření.",
+  "zamenyS": "Jiné lošáky - menší, hořké.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

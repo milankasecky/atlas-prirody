@@ -1,0 +1,32 @@
+{
+  "id": "kremenac-brezovy",
+  "skupina": "houba",
+  "nazevCesky": "Křemenáč březový",
+  "nazevLatinsky": "Leccinum versipelle",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Roste pod BŘÍZAMI.\nKlobouk oranžový, pokožka na okraji převislá.\nTřeň s ČERNÝMI šupinkami.\nDužnina na řezu šedofialová, pak černá.\nJíst jen dobře tepelně upravený.",
+  "zamenyS": "Křemenáč osikový - pod osikami, šupinky na třeni zprvu bělavé, pak rezavé.\nKozák březový - klobouk hnědý.",
+  "zamenyId": [
+    "kremenac-osikovy",
+    "kozak-brezovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

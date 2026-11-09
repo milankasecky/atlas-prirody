@@ -1,0 +1,30 @@
+{
+  "id": "ryzec-cernohlavek",
+  "skupina": "houba",
+  "nazevCesky": "Ryzec černohlávek",
+  "nazevLatinsky": "Lactarius lignyotus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Klobouk sametově ČERNOHNĚDÝ s malou bradavkou.\nLupeny BÍLÉ, kontrastní.\nTřeň tmavý, sametový.\nMléko bílé, na dužnině pomalu růžoví.\nRoste v horských smrčinách v mechu.",
+  "zamenyS": "Ryzce s bílým mlékem a ostrou chutí - nemají tak kontrastní tmavý klobouk a bílé lupeny.",
+  "zamenyId": [
+    "ryzec-smrkovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

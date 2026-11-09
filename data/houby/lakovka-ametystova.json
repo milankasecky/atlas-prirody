@@ -1,0 +1,34 @@
+{
+  "id": "lakovka-ametystova",
+  "skupina": "houba",
+  "nazevCesky": "Lakovka ametystová",
+  "nazevLatinsky": "Laccaria amethystina",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny",
+    "les-jehlicnaty"
+  ],
+  "popis": "Celá sytě fialová, za sucha vybledá.\nLupeny ŘÍDKÉ, tlusté, fialové.\nTřeň vláknitý, houževnatý.",
+  "zamenyS": "Helmovka čistá (jedovatá) - lupeny husté, výrazná ředkvičková vůně.\nČirůvka fialová - mohutnější, lupeny husté.\nLakovka obecná - masově růžovohnědá.",
+  "zamenyId": [
+    "lakovka-obecna",
+    "ciruvka-fialova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

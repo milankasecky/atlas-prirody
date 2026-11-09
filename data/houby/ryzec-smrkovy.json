@@ -1,0 +1,29 @@
+{
+  "id": "ryzec-smrkovy",
+  "skupina": "houba",
+  "nazevCesky": "Ryzec smrkový",
+  "nazevLatinsky": "Lactarius deterrimus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Roste jen pod SMRKEM.\nKlobouk oranžový se soustřednými pásy, otlakem a stářím zelená.\nMléko ORANŽOVÉ, během několika minut vínově červené.",
+  "zamenyS": "Ryzec pravý - roste pod borovicí, mléko zůstává oranžové.\nRyzce s bílým mlékem - mohou být pálivé nebo nejedlé.",
+  "zamenyId": [
+    "ryzec-cernohlavek"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

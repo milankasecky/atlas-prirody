@@ -1,0 +1,30 @@
+{
+  "id": "brezovnik-obecny",
+  "skupina": "houba",
+  "nazevCesky": "Březovník obecný",
+  "nazevLatinsky": "Piptoporus betulinus",
+  "mesiceVyskytu": [
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "kulturni-krajina"
+  ],
+  "popis": "Výhradní růst na břízách. Dužnina čistě bílá, v mládí měkká, postupně získává korkovitou konzistenci.",
+  "zamenyS": "",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": true,
+  "stromy": [
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

@@ -37,11 +37,11 @@ Léčivá: ne
 Měsíce výskytu: 
 
 # Víc hodnot čárkou:
-# Jehličnatý les (les-jehlicnaty), Listnatý les (les-listnaty), Smíšený les (les-smiseny), Louka (louka), Pole (pole), Mokřad (mokrad), U vody (u-vody), Zahrada (zahrada), Park (park), Městská zástavba (mestska-zastavba), Hory (hory)
+# Jehličnatý les (les-jehlicnaty), Listnatý les (les-listnaty), Smíšený les (les-smiseny), Louka (louka), Pole (pole), Mokřad (mokrad), U vody (u-vody), Zahrada (zahrada), Park (park), Městská zástavba (mestska-zastavba), Hory (hory), Kulturní krajina (kulturni-krajina)
 Stanoviště: 
 
 # Mykorhizní stromy, víc hodnot čárkou:
-# Buk (buk), Dub (dub), Bříza (briza), Habr (habr), Lípa (lipa), Topol (topol), Olše (olse), Smrk (smrk), Borovice (borovice), Jedle (jedle), Modřín (modrin), Ovocné stromy (ovocne)
+# Buk (buk), Dub (dub), Bříza (briza), Habr (habr), Lípa (lipa), Topol (topol), Olše (olse), Smrk (smrk), Borovice (borovice), Jedle (jedle), Modřín (modrin), Ovocné stromy (ovocne), Černý bez (bez-cerny), Javor (javor), Jasan (jasan), Vrba (vrba), Trnka (trnka), Hloh (hloh)
 Stromy: 
 
 # Znaky, na které se houbař musí zaměřit, aby druh bezpečně

@@ -1,0 +1,39 @@
+{
+  "id": "lesklokorka-ploska",
+  "skupina": "houba",
+  "nazevCesky": "Lesklokorka ploská",
+  "nazevLatinsky": "Ganoderma applanatum",
+  "mesiceVyskytu": [
+    "leden",
+    "unor",
+    "brezen",
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Velká plochá vytrvalá plodnice bez třeně.\nPovrch matný, šedohnědý, často pokrytý hnědým výtrusným prachem.\nRourková vrstva bílá, otlakem hnědne - dá se na ni kreslit.",
+  "zamenyS": "Troudnatec kopytovitý - kopytovitý tvar, šedý povrch, rourky hnědé.\nLesklokorka jehličnanová - lesklá, s třeněm.",
+  "zamenyId": [
+    "lesklokorka-jehlicnanova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": true,
+  "stromy": [
+    "buk",
+    "topol"
+  ],
+  "testovaciZaznam": false
+}

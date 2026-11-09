@@ -1,0 +1,30 @@
+{
+  "id": "liha-nahloucena",
+  "skupina": "houba",
+  "nazevCesky": "Líha nahloučená",
+  "nazevLatinsky": "Lyophyllum decastes",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "louka",
+    "park",
+    "kulturni-krajina",
+    "les-listnaty"
+  ],
+  "popis": "Roste v hustých trsech, třeně srůstají u báze.\nKlobouk šedohnědý, hladký.\nLupeny bělavé, nemění barvu.\nDužnina chrupavčitá.",
+  "zamenyS": "Závojenka olovová (jedovatá) - neroste v trsech, lupeny růžovějí.",
+  "zamenyId": [
+    "zavojenka-olovova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

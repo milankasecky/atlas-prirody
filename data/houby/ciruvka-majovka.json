@@ -1,0 +1,31 @@
+{
+  "id": "ciruvka-majovka",
+  "skupina": "houba",
+  "nazevCesky": "Čirůvka májovka",
+  "nazevLatinsky": "Calocybe gambosa",
+  "mesiceVyskytu": [
+    "duben",
+    "kveten"
+  ],
+  "stanoviste": [
+    "louka",
+    "kulturni-krajina"
+  ],
+  "popis": "Nízké, bílé, husté lupeny neměnící zráním barvu a silná moučná vůně.",
+  "zamenyS": "Závojenka podtrnka - roste od dubna do června, řidší lupeny.\nZávojenka olovová (jedovatá) - roste obvykle až od léta v teplých listnatých lesích především pod duby, habry a buky, lupeny má řídké, světle žluté, postupně se zbarvující do růžova.",
+  "zamenyId": [
+    "zavojenka-podtrnka",
+    "zavojenka-olovova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "ovocne",
+    "trnka",
+    "hloh"
+  ],
+  "testovaciZaznam": false
+}

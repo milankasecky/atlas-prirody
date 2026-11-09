@@ -1,0 +1,31 @@
+{
+  "id": "muchomurka-ruzovka",
+  "skupina": "houba",
+  "nazevCesky": "Muchomůrka růžovka",
+  "nazevLatinsky": "Amanita rubescens",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Dužnina při poranění a v požercích RŮŽOVÍ.\nPrsten na horní straně RÝHOVANÝ.\nHlíza bez ostrého lemu.\nSyrová jedovatá, jíst jen dobře tepelně upravenou.\nZačátečník by ji sbírat neměl.",
+  "zamenyS": "Muchomůrka tygrovaná (jedovatá) - dužnina nečervená, prsten HLADKÝ, hlíza s ostrým lemem, bradavky čistě bílé.\nMuchomůrka královská (jedovatá) - bradavky žlutavé.",
+  "zamenyId": [
+    "muchomurka-tygrovana",
+    "muchomurka-kralovska"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

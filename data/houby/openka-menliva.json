@@ -1,0 +1,39 @@
+{
+  "id": "openka-menliva",
+  "skupina": "houba",
+  "nazevCesky": "Opeňka měnlivá",
+  "nazevLatinsky": "Kuehneromyces mutabilis",
+  "mesiceVyskytu": [
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Roste v trsech na pařezech a dřevě listnáčů.\nKlobouk za vlhka dvoubarevný - tmavší vodnatý pás na okraji, světlejší střed.\nTřeň pod prstenem s drobnými hnědými odstávajícími šupinkami.\nKořenitá vůně.",
+  "zamenyS": "Čepičatka jehličnanová (smrtelně jedovatá) - třeň pod prstenem s podélnými stříbřitými vlákny bez šupinek, moučná vůně. ROZHODUJÍCÍ ZNAK: šupinky na třeni.\nTřepenitky - bez šupinek na třeni, lupeny zelenožluté nebo šedé.",
+  "zamenyId": [
+    "cepicatka-jehlicnanova",
+    "penizovka-sametonoha",
+    "trepenitka-svazcita",
+    "trepenitka-makova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "briza",
+    "olse"
+  ],
+  "testovaciZaznam": false
+}

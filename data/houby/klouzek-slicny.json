@@ -1,0 +1,32 @@
+{
+  "id": "klouzek-slicny",
+  "skupina": "houba",
+  "nazevCesky": "Klouzek sličný",
+  "nazevLatinsky": "Suillus grevillei",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "park"
+  ],
+  "popis": "Roste jen pod MODŘÍNEM.\nKlobouk zlatožlutý až oranžový, slizký.\nBělavý až nažloutlý prsten.\nPóry žluté.",
+  "zamenyS": "Klouzek obecný - klobouk čokoládově hnědý, roste pod borovicí.\nŠťavnatka modřínová - také žlutá a pod modříny, ale má lupeny.",
+  "zamenyId": [
+    "klouzek-obecny",
+    "stavnatka-modrinova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "modrin"
+  ],
+  "testovaciZaznam": false
+}

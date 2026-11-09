@@ -1,0 +1,33 @@
+{
+  "id": "hrib-kovar",
+  "skupina": "houba",
+  "nazevCesky": "Hřib kovář",
+  "nazevLatinsky": "Neoboletus luridiformis",
+  "mesiceVyskytu": [
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Klobouk tmavě hnědý, sametový.\nPóry ČERVENÉ.\nTřeň žlutý s drobnými červenými TEČKAMI (ne síťka).\nDužnina žlutá, na řezu okamžitě sytě modrá.\nSyrový jedovatý, jíst jen dobře tepelně upravený.",
+  "zamenyS": "Hřib satan (jedovatý) - klobouk bělavý, na třeni červená SÍŤKA, roste na vápenci v teplých listnatých lesích.\nHřib kříšť (nejedlý) - póry žluté, síťka na třeni, hořký.",
+  "zamenyId": [
+    "hrib-krist"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

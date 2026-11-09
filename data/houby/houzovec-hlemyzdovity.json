@@ -1,0 +1,31 @@
+{
+  "id": "houzovec-hlemyzdovity",
+  "skupina": "houba",
+  "nazevCesky": "Houžovec hlemýžďovitý",
+  "nazevLatinsky": "Lentinellus cochleatus",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Roste v trsech na pařezech a u báze kmenů.\nKlobouk nálevkovitý, zkroucený, rezavě hnědý.\nLupeny sbíhavé, s pilovitým ostřím.\nČasto výrazná anýzová vůně.\nTuhý, jíst jen mladé.",
+  "zamenyS": "Hlíva ústřičná - lupeny s hladkým ostřím, bez anýzové vůně.",
+  "zamenyId": [
+    "hliva-ustricna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub"
+  ],
+  "testovaciZaznam": false
+}

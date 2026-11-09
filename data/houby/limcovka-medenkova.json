@@ -1,0 +1,30 @@
+{
+  "id": "limcovka-medenkova",
+  "skupina": "houba",
+  "nazevCesky": "Límcovka měděnková",
+  "nazevLatinsky": "Stropharia aeruginosa",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk MODROZELENÝ, slizký, s bílými vločkami.\nLupeny šedofialové.\nNa třeni prsten.",
+  "zamenyS": "Strmělka anýzka - bez prstenu, neslizká, silná anýzová vůně.",
+  "zamenyId": [
+    "strmelka-anyzka"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "stavnatka-modrinova",
+  "skupina": "houba",
+  "nazevCesky": "Šťavnatka modřínová",
+  "nazevLatinsky": "Hygrophorus lucorum",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "park"
+  ],
+  "popis": "Roste jen pod MODŘÍNEM.\nKlobouk citronově žlutý, slizký.\nLupeny bělavé až nažloutlé, voskovité, řídké, sbíhavé.\nTřeň slizký.",
+  "zamenyS": "Klouzek sličný - také pod modříny, ale má rourky a prsten.",
+  "zamenyId": [
+    "klouzek-slicny"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "modrin"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ciruvka-fialova",
+  "skupina": "houba",
+  "nazevCesky": "Čirůvka fialová",
+  "nazevLatinsky": "Lepista nuda",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty",
+    "zahrada"
+  ],
+  "popis": "Celá fialová včetně lupenů.\nVýtrusný prach růžovobéžový (ne rezavý).\nOvocná, parfémová vůně.\nRoste pozdě na podzim v opadu a na kompostech.\nJíst jen tepelně upravenou.",
+  "zamenyS": "Pavučince fialové (některé jedovaté) - rezavě hnědý výtrusný prach, pavučinová vlákna mezi kloboukem a třeněm.\nLakovka ametystová - menší, lupeny řídké a tlusté.\nČirůvka dvoubarvá - fialový jen třeň, roste na loukách.",
+  "zamenyId": [
+    "ciruvka-dvoubarva",
+    "lakovka-ametystova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

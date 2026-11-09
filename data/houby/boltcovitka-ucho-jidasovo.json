@@ -1,0 +1,41 @@
+{
+  "id": "boltcovitka-ucho-jidasovo",
+  "skupina": "houba",
+  "nazevCesky": "Boltcovitka ucho Jidášovo",
+  "nazevLatinsky": "Auricularia auricula-judae",
+  "mesiceVyskytu": [
+    "leden",
+    "unor",
+    "brezen",
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "kulturni-krajina"
+  ],
+  "popis": "Bokem úzce přirostlý bez třeně; ouško červenohnědé",
+  "zamenyS": "",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": true,
+  "stromy": [
+    "bez-cerny",
+    "javor",
+    "jasan",
+    "vrba",
+    "buk",
+    "olse"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,29 @@
+{
+  "id": "hnedak-schweinitzuv",
+  "skupina": "houba",
+  "nazevCesky": "Hnědák Schweinitzův",
+  "nazevLatinsky": "Phaeolus schweinitzii",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Velká plochá plodnice u báze kmene nebo na kořenech jehličnanů.\nPovrch rezavě hnědý, plstnatý, okraj v mládí sírově žlutý.\nRourky zelenožluté, otlakem hnědnou.\nZpůsobuje hnědou hnilobu dřeva.",
+  "zamenyS": "Sírovec žlutooranžový - sytě oranžovožlutý, roste hlavně na listnáčích.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice",
+    "modrin"
+  ],
+  "testovaciZaznam": false
+}

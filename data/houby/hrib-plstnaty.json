@@ -1,0 +1,36 @@
+{
+  "id": "hrib-plstnaty",
+  "skupina": "houba",
+  "nazevCesky": "Hřib plstnatý",
+  "nazevLatinsky": "Xerocomus subtomentosus",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk olivově hnědý, suchý, plstnatý.\nPóry široké, zlatožluté, otlakem jen slabě modrají.\nTřeň bez síťky, podélně rýhovaný.\nDužnina světlá, téměř nemodrá.",
+  "zamenyS": "Hřib žlutomasý - klobouk ve stáří rozpraská a v trhlinách je načervenalý.\nHřib peprný - malý, póry rezavé, pálivá chuť.",
+  "zamenyId": [
+    "hrib-zlutomasy",
+    "hrib-peprny",
+    "hrib-sametovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "dub",
+    "buk",
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

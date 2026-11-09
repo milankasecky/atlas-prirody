@@ -1,0 +1,33 @@
+{
+  "id": "vaclavka-smrkova",
+  "skupina": "houba",
+  "nazevCesky": "Václavka smrková",
+  "nazevLatinsky": "Armillaria ostoyae",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Roste v trsech na pařezech a kmenech.\nKlobouk hnědý s tmavými šupinkami.\nNa třeni bílý blanitý PRSTEN.\nVýtrusný prach bílý.\nSyrová jedovatá - jíst jen dobře tepelně upravenou, spařovací vodu vylít.",
+  "zamenyS": "Šupinovka kostrbatá - hrubé odstávající šupiny, bez bílého prstenu.\nTřepenitka svazčitá (jedovatá) - zelenožluté lupeny, hořká.\nČepičatka jehličnanová (smrtelně jedovatá) - menší, rezavě hnědé lupeny, stříbřitá vlákna na třeni.",
+  "zamenyId": [
+    "supinovka-kostrbata",
+    "trepenitka-svazcita",
+    "cepicatka-jehlicnanova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

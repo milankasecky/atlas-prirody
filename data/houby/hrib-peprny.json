@@ -1,0 +1,32 @@
+{
+  "id": "hrib-peprny",
+  "skupina": "houba",
+  "nazevCesky": "Hřib peprný",
+  "nazevLatinsky": "Chalciporus piperatus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Malý hřib, klobouk měděně žlutohnědý.\nPóry rezavě červenohnědé.\nBáze třeně uvnitř sytě žlutá.\nChuť ostře PEPRNÁ (jen jako koření v malém množství).",
+  "zamenyS": "Hřib plstnatý - póry zlatožluté, chuť mírná.\nHřib sametový - póry citronově žluté, chuť mírná.",
+  "zamenyId": [
+    "hrib-plstnaty",
+    "hrib-sametovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

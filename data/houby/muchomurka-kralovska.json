@@ -1,0 +1,33 @@
+{
+  "id": "muchomurka-kralovska",
+  "skupina": "houba",
+  "nazevCesky": "Muchomůrka královská",
+  "nazevLatinsky": "Amanita regalis",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Stavbou jako muchomůrka červená, ale klobouk HNĚDÝ se žlutavými bradavkami.\nLupeny bílé, prsten, hlíza s pásy.\nRoste hlavně v horských smrčinách.",
+  "zamenyS": "Muchomůrka tygrovaná (jedovatá) - bradavky čistě bílé, hlíza s ostrým lemem.\nMuchomůrka růžovka - dužnina růžoví, prsten rýhovaný.",
+  "zamenyId": [
+    "muchomurka-cervena",
+    "muchomurka-tygrovana",
+    "muchomurka-ruzovka"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

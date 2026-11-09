@@ -1,0 +1,34 @@
+{
+  "id": "hrib-zlucnik",
+  "skupina": "houba",
+  "nazevCesky": "Hřib žlučník",
+  "nazevLatinsky": "Tylopilus felleus",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Rourky bělavé, pak RŮŽOVÉ.\nTřeň s hrubou TMAVĚ hnědou síťkou.\nChuť velmi hořká - stačí olíznout dužninu.\nJedna plodnice zkazí celé jídlo.",
+  "zamenyS": "Hřib smrkový - rourky bílé až žlutozelené, síťka bílá a jemná, chuť mírná.\nKozák březový - třeň s černými šupinkami, bez síťky.",
+  "zamenyId": [
+    "hrib-smrkovy",
+    "kozak-brezovy",
+    "hrib-hnedy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

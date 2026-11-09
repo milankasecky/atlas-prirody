@@ -1,0 +1,30 @@
+{
+  "id": "polnicka-rana",
+  "skupina": "houba",
+  "nazevCesky": "Polnička raná",
+  "nazevLatinsky": "Agrocybe praecox",
+  "mesiceVyskytu": [
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec"
+  ],
+  "stanoviste": [
+    "louka",
+    "park",
+    "zahrada"
+  ],
+  "popis": "Roste na jaře v trávě, parcích a zahradách.\nKlobouk světle okrový.\nLupeny hnědé.\nNa třeni blanitý prsten, u báze bílé vlákénka mycelia.",
+  "zamenyS": "Křehutka Candolleova - velmi křehká, bez prstenu.\nZávojenka podtrnka - lupeny růžové, roste pod trnkami.",
+  "zamenyId": [
+    "krehutka-candolleova",
+    "zavojenka-podtrnka"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

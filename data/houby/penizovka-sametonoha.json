@@ -1,0 +1,40 @@
+{
+  "id": "penizovka-sametonoha",
+  "skupina": "houba",
+  "nazevCesky": "Penízovka sametonohá",
+  "nazevLatinsky": "Flammulina velutipes",
+  "mesiceVyskytu": [
+    "rijen",
+    "listopad",
+    "prosinec",
+    "leden",
+    "unor",
+    "brezen",
+    "duben"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "u-vody",
+    "park"
+  ],
+  "popis": "Roste v zimě (i za mrazu) v trsech na dřevě listnáčů.\nKlobouk medově žlutý až oranžový, lepkavý.\nTřeň BEZ prstenu, dole tmavě hnědočerný a sametový.",
+  "zamenyS": "Čepičatka jehličnanová (smrtelně jedovatá) - má prsten, třeň stříbřitě vláknitý, roste hlavně na jehličnanech.\nOpeňka měnlivá - má prsten a šupinky na třeni.",
+  "zamenyId": [
+    "cepicatka-jehlicnanova",
+    "openka-menliva",
+    "trepenitka-svazcita",
+    "trepenitka-makova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "topol",
+    "vrba",
+    "jasan",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "cepicatka-jehlicnanova",
+  "skupina": "houba",
+  "nazevCesky": "Čepičatka jehličnanová",
+  "nazevLatinsky": "Galerina marginata",
+  "mesiceVyskytu": [
+    "brezen",
+    "duben",
+    "kveten",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "kulturni-krajina"
+  ],
+  "popis": "Klobouk uprostřed tmavší než na okraji, okraj jemně rýhovaný. Třeň má prsten, který však může stářím nebo deštěm zmizet. Pod prstenem je třeň hnědý až tmavohnědý, pokrytý podélnými stříbřitými vlákny. Směrem k bázi tmavne a netvoří šupinky. Voní výrazně moučně.",
+  "zamenyS": "Opeňka měnlivá - na třeni má drobné hnědé odstávající šupinky. Má kořenitou, specifickou vůni. Klobouk ve vlhku s typickým širokým tmavším soustředným vodnatým pásem kolem světlejšího středu.\nPenízovka sametonohá - na třeni nemá prsten a pokožka třeně je v dospělosti tmavě černohnědě sametová.\nTřepenitka maková - má v mládí bělavé lupeny, které se postupně zbarvují šedomodře.\nTřepenitka svazčitá (jedovatá) - lupeny vždy se zelenožlutým tónem.",
+  "zamenyId": [
+    "openka-menliva",
+    "penizovka-sametonoha",
+    "trepenitka-makova",
+    "trepenitka-svazcita"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "smrtelne-jedovata",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

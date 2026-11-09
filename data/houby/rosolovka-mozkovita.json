@@ -1,0 +1,37 @@
+{
+  "id": "rosolovka-mozkovita",
+  "skupina": "houba",
+  "nazevCesky": "Rosolovka mozkovitá",
+  "nazevLatinsky": "Tremella mesenterica",
+  "mesiceVyskytu": [
+    "leden",
+    "unor",
+    "brezen",
+    "duben",
+    "kveten",
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Zlatožlutý rosolovitý, mozkovitě zprohýbaný útvar na odumřelých větvích listnáčů.\nZa sucha scvrklý a tvrdý, po dešti nabobtná.\nBez praktického kuchyňského významu.",
+  "zamenyS": "Kropilka - menší, oranžové kapky nebo jazýčky, roste na dřevě jehličnanů.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "dub",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

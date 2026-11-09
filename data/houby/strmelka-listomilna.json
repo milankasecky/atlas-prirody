@@ -1,0 +1,32 @@
+{
+  "id": "strmelka-listomilna",
+  "skupina": "houba",
+  "nazevCesky": "Strmělka listomilná",
+  "nazevLatinsky": "Clitocybe phyllophila",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny"
+  ],
+  "popis": "Celá bělavá, klobouk jakoby ojíněný (poprášený).\nLupeny krémové, sbíhavé.\nRoste ve skupinách v listovém opadu.\nObsahuje muskarin.",
+  "zamenyS": "Strmělka mlženka - větší, klobouk šedý.\nStrmělka anýzka - zelenomodrá, silná anýzová vůně.\nŠpička obecná - roste v trávě, lupeny řídké, třeň houževnatý.",
+  "zamenyId": [
+    "strmelka-anyzka",
+    "strmelka-mlzenka",
+    "spicka-obecna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub"
+  ],
+  "testovaciZaznam": false
+}

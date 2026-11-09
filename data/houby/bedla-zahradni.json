@@ -1,0 +1,31 @@
+{
+  "id": "bedla-zahradni",
+  "skupina": "houba",
+  "nazevCesky": "Bedla zahradní",
+  "nazevLatinsky": "Chlorophyllum brunneum",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "zahrada",
+    "park",
+    "kulturni-krajina"
+  ],
+  "popis": "Roste mimo les - na kompostech, hnojených a humózních místech.\nKlobouk s hrubými hnědými šupinami.\nTřeň hladký, bělavý, dole s mohutnou, ostře ohraničenou hranatou hlízou.\nPrsten jednoduchý, špatně posuvný.\nDužnina na řezu červená až oranžově hnědá.",
+  "zamenyS": "Bedla vysoká - roste na loukách a světlých lesích, třeň s hadovitou kresbou, dužnina nečervená.\nBedla červenající - roste v lese, hlíza menší a zaoblená.",
+  "zamenyId": [
+    "bedla-vysoka",
+    "bedla-cervenajici"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

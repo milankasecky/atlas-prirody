@@ -1,0 +1,33 @@
+{
+  "id": "supinovka-kostrbata",
+  "skupina": "houba",
+  "nazevCesky": "Šupinovka kostrbatá",
+  "nazevLatinsky": "Pholiota squarrosa",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "park",
+    "zahrada"
+  ],
+  "popis": "Velké trsy u báze živých stromů.\nKlobouk i třeň pokryty hrubými odstávajícími ŠUPINAMI.\nPovrch suchý, žlutohnědý.\nČesneková až ředkvičková vůně.",
+  "zamenyS": "Václavka smrková - šupinky jemnější, bílý prsten, bílý výtrusný prach.",
+  "zamenyId": [
+    "vaclavka-smrkova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "nejedla",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "ovocne",
+    "jasan"
+  ],
+  "testovaciZaznam": false
+}

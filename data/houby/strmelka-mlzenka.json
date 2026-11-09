@@ -1,0 +1,34 @@
+{
+  "id": "strmelka-mlzenka",
+  "skupina": "houba",
+  "nazevCesky": "Strmělka mlženka",
+  "nazevLatinsky": "Clitocybe nebularis",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Velká houba, klobouk mlhavě šedý.\nLupeny krémové, mírně sbíhavé.\nVýrazná nasládlá vůně.\nRoste v řadách a kruzích.\nCitlivým lidem může způsobit potíže, nutná delší tepelná úprava.",
+  "zamenyS": "Závojenka olovová (jedovatá) - lupeny růžovějí, moučná vůně, roste od léta.\nStrmělka listomilná (jedovatá) - menší, bělavá, ojíněná.",
+  "zamenyId": [
+    "strmelka-anyzka",
+    "strmelka-listomilna",
+    "zavojenka-olovova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "podminecne-jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "buk"
+  ],
+  "testovaciZaznam": false
+}

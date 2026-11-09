@@ -1,0 +1,29 @@
+{
+  "id": "bedla-vysoka",
+  "skupina": "houba",
+  "nazevCesky": "Bedla vysoká",
+  "nazevLatinsky": "Macrolepiota procera",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "louka"
+  ],
+  "popis": "Kombinace tří hlavních znaků:\n1. posuvný prsten\n2. šupinatý třeň dole výrazně rozšířený\n3. při rozříznutí zůstává dužnina i třeň stále bílá a nečervená",
+  "zamenyS": "Bedla červenající (nejedlá): třeň hladký s přechodem z bílé do světle béžové, na řezu červená.\nBedla zahradní (jedovaté): Prsten špatně posuvný, třeň hladký bělavý, na řezu červená (oranžoví).",
+  "zamenyId": [
+    "bedla-cervenajici",
+    "bedla-zahradni"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

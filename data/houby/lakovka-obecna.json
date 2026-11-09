@@ -1,0 +1,32 @@
+{
+  "id": "lakovka-obecna",
+  "skupina": "houba",
+  "nazevCesky": "Lakovka obecná",
+  "nazevLatinsky": "Laccaria laccata",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Malá, celá masově růžovohnědá.\nLupeny ŘÍDKÉ, tlusté, růžové.\nTřeň vláknitý, houževnatý.\nJedlé jsou jen klobouky.",
+  "zamenyS": "Lakovka ametystová - fialová.\nŠpička obecná - roste v trávě v kruzích, okrová.\nDrobné jedovaté strmělky - bělavé, lupeny husté.",
+  "zamenyId": [
+    "lakovka-ametystova",
+    "spicka-obecna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
+}

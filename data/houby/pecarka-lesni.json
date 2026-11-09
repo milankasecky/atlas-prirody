@@ -1,0 +1,30 @@
+{
+  "id": "pecarka-lesni",
+  "skupina": "houba",
+  "nazevCesky": "Pečárka lesní",
+  "nazevLatinsky": "Agaricus sylvaticus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Roste v lese, nejčastěji v opadu ve smrčinách.\nKlobouk hnědavý s jemnými šupinkami.\nLupeny růžové, pak hnědé.\nDužnina na řezu rychle červená.\nVýrazný blanitý prsten.",
+  "zamenyS": "Pečárka polní - roste na loukách, dužnina téměř nečervená.\nMuchomůrky (jedovaté) - lupeny stále bílé, hlíza.",
+  "zamenyId": [
+    "pecarka-polni"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

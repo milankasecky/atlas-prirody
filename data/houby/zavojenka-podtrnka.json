@@ -1,0 +1,33 @@
+{
+  "id": "zavojenka-podtrnka",
+  "skupina": "houba",
+  "nazevCesky": "Závojenka podtrnka",
+  "nazevLatinsky": "Entoloma clypeatum",
+  "mesiceVyskytu": [
+    "duben",
+    "kveten",
+    "cerven"
+  ],
+  "stanoviste": [
+    "zahrada",
+    "kulturni-krajina",
+    "louka"
+  ],
+  "popis": "Roste jen pod růžovitými dřevinami (trnka, hloh, ovocné stromy).\nKlobouk šedohnědý, za vlhka vodnatý, s hrbolkem.\nLupeny řídké, nejprve bělavé, pak RŮŽOVÉ od výtrusů.\nMoučná vůně.",
+  "zamenyS": "Závojenka olovová (jedovatá) - roste až od léta pod duby, buky a habry, je robustnější, lupeny v mládí nažloutlé.\nČirůvka májovka - lupeny husté a stále bílé.",
+  "zamenyId": [
+    "ciruvka-majovka",
+    "zavojenka-olovova"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "trnka",
+    "hloh",
+    "ovocne"
+  ],
+  "testovaciZaznam": false
+}

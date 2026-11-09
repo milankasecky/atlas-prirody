@@ -1,0 +1,36 @@
+{
+  "id": "muchomurka-tygrovana",
+  "skupina": "houba",
+  "nazevCesky": "Muchomůrka tygrovaná",
+  "nazevLatinsky": "Amanita pantherina",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty"
+  ],
+  "popis": "Klobouk hnědý s ČISTĚ BÍLÝMI bradavkami, okraj rýhovaný.\nPrsten HLADKÝ (nerýhovaný).\nHlíza s ostrým lemem (límečkem).\nDužnina bílá, NEČERVENÁ.",
+  "zamenyS": "Muchomůrka růžovka - dužnina růžoví, prsten rýhovaný.\nMuchomůrka královská - bradavky žlutavé.",
+  "zamenyId": [
+    "muchomurka-ruzovka",
+    "muchomurka-kralovska"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedovata",
+  "lecive": false,
+  "stromy": [
+    "buk",
+    "dub",
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

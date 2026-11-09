@@ -1,0 +1,29 @@
+{
+  "id": "rosolozub-huspenity",
+  "skupina": "houba",
+  "nazevCesky": "Rosolozub huspenitý",
+  "nazevLatinsky": "Pseudohydnum gelatinosum",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad",
+    "prosinec"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Rosolovitý, průsvitný, šedobílý jazykovitý klobouk.\nNa spodní straně drobné měkké OSTNY.\nRoste na tlejícím dřevě jehličnanů.",
+  "zamenyS": "Bez nebezpečné záměny.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "jedle"
+  ],
+  "testovaciZaznam": false
+}

@@ -1,0 +1,33 @@
+{
+  "id": "hrib-hnedy",
+  "skupina": "houba",
+  "nazevCesky": "Hřib hnědý",
+  "nazevLatinsky": "Imleria badia",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Klobouk kaštanově hnědý, za vlhka lepkavý.\nRourky žlutavé, otlakem MODRAJÍ.\nTřeň bez síťky, podélně vláknitý.\nDužnina na řezu slabě modrá.",
+  "zamenyS": "Hřib smrkový - třeň se síťkou, dužnina nemodrá.\nHřib žlučník (nejedlý, hořký) - rourky růžové, hrubá tmavá síťka.",
+  "zamenyId": [
+    "hrib-smrkovy",
+    "hrib-zlucnik"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

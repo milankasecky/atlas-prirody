@@ -266,7 +266,7 @@ function vykresliDetail(houba) {
 
     <div class="detail-sekce">
       <h2>Určovací znaky</h2>
-      <p>${houba.popis || "–"}</p>
+      <p class="viceradkovy">${houba.popis || "–"}</p>
     </div>
 
     <div class="detail-sekce">
@@ -282,7 +282,7 @@ function vykresliDetail(houba) {
 
     <div class="detail-sekce">
       <h2>Záměny</h2>
-      <p>${houba.zamenyS || "–"}</p>
+      <p class="viceradkovy">${houba.zamenyS || "–"}</p>
       ${zamenyOdkazy ? `<div class="chipy" style="margin-top:8px">${zamenyOdkazy}</div>` : ""}
     </div>
 

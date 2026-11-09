@@ -1,0 +1,30 @@
+{
+  "id": "liska-nalevkovita",
+  "skupina": "houba",
+  "nazevCesky": "Liška nálevkovitá",
+  "nazevLatinsky": "Craterellus tubaeformis",
+  "mesiceVyskytu": [
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny"
+  ],
+  "popis": "Klobouk hnědý, nálevkovitý, uprostřed otvor do dutého třeně.\nMísto lupenů šedavé větvené LIŠTY.\nTřeň žlutý až žlutooranžový, dutý.\nRoste ve skupinách v mechu.",
+  "zamenyS": "Liška obecná - celá vaječně žlutá, masitá.",
+  "zamenyId": [
+    "liska-obecna"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

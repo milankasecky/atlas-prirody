@@ -1,0 +1,26 @@
+{
+  "id": "stavnatka-teckovana",
+  "skupina": "houba",
+  "nazevCesky": "Šťavnatka tečkovaná",
+  "nazevLatinsky": "Hygrophorus pustulatus",
+  "mesiceVyskytu": [
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty"
+  ],
+  "popis": "Klobouk šedý až šedohnědý, slizký.\nTřeň bílý s tmavými zrnitými TEČKAMI, hlavně v horní části.\nLupeny bílé, voskovité, řídké, sbíhavé.",
+  "zamenyS": "Jiné šedé šťavnatky - bez teček na třeni.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

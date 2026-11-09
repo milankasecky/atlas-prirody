@@ -1,0 +1,31 @@
+{
+  "id": "hrib-nachovytrusy",
+  "skupina": "houba",
+  "nazevCesky": "Hřib nachovýtrusý",
+  "nazevLatinsky": "Porphyrellus porphyrosporus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Celý tmavě šedohnědý až olivově hnědý, sametový.\nRourky šedohnědé.\nVýtrusný prach nachově hnědý.\nNepříjemná vůně, jíst jen mladé plodnice.",
+  "zamenyS": "Hřib žlučník (nejedlý) - světlejší, rourky růžové, hrubá síťka, velmi hořký.\nŠiškovec černý - klobouk s hrubými vlnatými šupinami.",
+  "zamenyId": [
+    "hrib-zlucnik",
+    "siskovec-cerny"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk"
+  ],
+  "testovaciZaznam": false
+}

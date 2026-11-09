@@ -1,0 +1,33 @@
+{
+  "id": "kozak-brezovy",
+  "skupina": "houba",
+  "nazevCesky": "Kozák březový",
+  "nazevLatinsky": "Leccinum scabrum",
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny",
+    "kulturni-krajina"
+  ],
+  "popis": "Roste jen pod BŘÍZAMI.\nKlobouk šedohnědý až hnědý.\nTřeň bělavý s ČERNÝMI šupinkami.\nDužnina bílá, na řezu nemění barvu nebo jen slabě růžoví.",
+  "zamenyS": "Křemenáč březový - klobouk oranžový, dužnina na řezu šedofialová až černá.\nHřib žlučník (nejedlý) - třeň se síťkou, ne se šupinkami, hořký.",
+  "zamenyId": [
+    "kremenac-brezovy",
+    "hrib-zlucnik"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

@@ -240,6 +240,16 @@ Složky `nove-zaznamy/` a `archiv-zaznamy/` jsou v `.gitignore`.
   `nastroje/zpracuj_zaznamy.py` (viz oddíl "Nové záznamy přes textové
   karty"). Otestováno na kopii projektu: chybné karty se neuloží, pole
   Soukromé se nepřevádí, fotky bez GPS, karty se archivují.
+- 2026-11-09: Převedeno 72 skutečných druhů hub z karet (5 od uživatele,
+  67 dopsal Claude podle seznamu `nove-zaznamy/_seznam-hub.txt`, ověřováno
+  na myko.cz). Skupiny podobných druhů 1.–6. ze seznamu jsou vzájemně
+  provázané přes `zamenyId`. Číselník rozšířen o stanoviště "Kulturní
+  krajina" a dřeviny (černý bez, javor, jasan, vrba, trnka, hloh) – pole
+  `stromy` tedy znamená i dřeviny, na kterých houba roste. Určovací znaky
+  a záměny se v detailu zobrazují s původním zalomením řádků.
+  Nevyřešeno: Krásnopórka mlynářka, Penízovka kuželovitá a Kozák
+  šedohnědý chybí (nejasné, který druh uživatel myslí); k ověření
+  Hřib žlutomasý (použit *Xerocomellus chrysenteron*).
 - **Další krok:** uživatel bude postupně doplňovat vlastní reálné houby a
   fotky (přes `nastroje/zpracuj_fotky.py`) a nahrazovat jimi testovací
   záznamy. Až bude dost reálných dat, smazat testovací záznamy

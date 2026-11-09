@@ -1,0 +1,29 @@
+{
+  "id": "krasnoporka-mlynarka",
+  "skupina": "houba",
+  "nazevCesky": "Krásnopórka mlynářka",
+  "nazevLatinsky": "Albatrellus ovinus",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "hory"
+  ],
+  "popis": "Klobouk bělavý, krémový až světle hnědý, nepravidelně laločnatý, za sucha popraskaný.\nNa spodní straně drobné PÓRY - zprvu čistě bílé, později citronově žluté, krátce sbíhají na třeň.\nTřeň bělavý, plstnatý, často výstředný.\nDužnina bílá, na řezu a po poranění nápadně ŽLOUTNE.\nRoste na zemi v podhorských a horských smrčinách.\nJíst jen mladé plodnice, starší jsou tuhé.",
+  "zamenyS": "Krásnopórka žemlička - klobouk s oranžovými odstíny, dužnina nežloutne, roste často vedle mlynářky.\nKrásnopórka borová a citronová - odlišné jen mikroskopicky.",
+  "zamenyId": [],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "jedla",
+  "lecive": false,
+  "stromy": [
+    "smrk",
+    "borovice"
+  ],
+  "testovaciZaznam": false
+}

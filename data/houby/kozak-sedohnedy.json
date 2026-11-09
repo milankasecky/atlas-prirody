@@ -1,0 +1,33 @@
+{
+  "id": "kozak-sedohnedy",
+  "skupina": "houba",
+  "nazevCesky": "Kozák šedohnědý",
+  "nazevLatinsky": "Leccinum cyaneobasileucum",
+  "mesiceVyskytu": [
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-listnaty",
+    "les-smiseny",
+    "mokrad"
+  ],
+  "popis": "Roste vždy pod BŘÍZAMI na vlhkých kyselých místech.\nKlobouk světle šedohnědý, za vlhka mírně lepkavý.\nTřeň bělavý se světlými šupinkami, při BÁZI MODROZELENÉ skvrny.\nDužnina bělavá, v horní části třeně mírně narůžovělá, v bázi třeně modrozelená.\nSbírat jen mladé plodnice.",
+  "zamenyS": "Kozák březový - dužnina nemění barvu, na bázi třeně nikdy modrozelená.\nKozák barvoměnný - tmavší klobouk se světlejšími skvrnami.\nKozák bílý - obvykle bez modrozeleného zbarvení báze.\nKřemenáč březový - dužnina na řezu výrazně tmavne až černá.",
+  "zamenyId": [
+    "kozak-brezovy",
+    "kremenac-brezovy"
+  ],
+  "fotky": [],
+  "zaznamyNalezu": [],
+  "stitky": [],
+  "jedlost": "vyborna",
+  "lecive": false,
+  "stromy": [
+    "briza"
+  ],
+  "testovaciZaznam": false
+}

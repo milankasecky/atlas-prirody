@@ -3,16 +3,31 @@
   "skupina": "houba",
   "nazevCesky": "Pýchavka obecná",
   "nazevLatinsky": "Lycoperdon perlatum",
-  "mesiceVyskytu": ["cervenec", "srpen", "zari", "rijen"],
-  "stanoviste": ["les-listnaty", "les-smiseny"],
-  "popis": "Kulovitá až hruškovitá houba s bílým až nahnědlým povrchem pokrytým drobnými bradavkami. Jedlá jen v mladém stavu, dokud je dužnina celá bílá.",
-  "zamenyS": "Ve starším stavu, kdy zevnitř žloutne/hnědne, se nekonzumuje – nutné rozříznout a zkontrolovat celou bílou dužninu.",
-  "zamenyId": [],
+  "mesiceVyskytu": [
+    "cerven",
+    "cervenec",
+    "srpen",
+    "zari",
+    "rijen",
+    "listopad"
+  ],
+  "stanoviste": [
+    "les-jehlicnaty",
+    "les-smiseny",
+    "les-listnaty",
+    "louka",
+    "park"
+  ],
+  "popis": "Plodnice hruškovitá až kyjovitá, nahoře často s hrbolkem.\nPovrch zprvu bílý, pokrytý kuželovitými BRADAVKAMI, které se při dotyku snadno odlamují - velké bradavky jsou obklopené menšími.\nPo opadnutí bradavek zůstanou kruhové prohlubně.\nVnitřek mladé plodnice ČISTĚ BÍLÝ a pevný, později žloutne a mění se v olivově hnědý prach.\nSbírat jen mladé plodnice s bílým a jednolitým vnitřkem.",
+  "zamenyS": "Mladé muchomůrky (smrtelně jedovaté) - v „vajíčku“ je na podélném řezu vidět obrys klobouku, lupenů a třeně. Každou pýchavku vždy rozříznout!\nHadovka smrdutá (vajíčko) - uvnitř rosol a zárodek třeně.\nPestřec obecný (jedovatý) - vnitřek brzy tmavý (fialově černý), slupka tvrdá a šupinatá.\nJiné pýchavky - nemají snadno opadavé kuželovité bradavky.",
+  "zamenyId": [
+    "hadovka-smrduta"
+  ],
   "fotky": [],
   "zaznamyNalezu": [],
-  "stitky": ["testovaci-data"],
-  "jedlost": "podminecne-jedla",
-  "lecive": true,
-  "stromy": ["buk", "dub", "briza"],
-  "testovaciZaznam": true
+  "stitky": [],
+  "jedlost": "vyborna",
+  "lecive": false,
+  "stromy": [],
+  "testovaciZaznam": false
 }

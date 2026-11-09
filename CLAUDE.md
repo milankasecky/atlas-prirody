@@ -127,11 +127,9 @@ archiv-fotky/<id>/         – originály po zpracování (mimo git)
 Důležité: když přidáš nový soubor `data/houby/<id>.json`, musíš jeho `id`
 přidat i do `data/houby/index.json`, jinak se v aplikaci nezobrazí.
 
-V `data/houby/` je zatím 5 **testovacích** záznamů (Hřib smrkový, Muchomůrka
-červená, Liška obecná, Žampion polní, Pýchavka obecná) – mají příznak
-`"testovaciZaznam": true` a v aplikaci jsou označeny štítkem "TESTOVACÍ
-ZÁZNAM". Slouží jen k vyzkoušení filtrování, později se smažou a nahradí
-skutečnými daty.
+Testovací záznamy už v `data/houby/` nejsou (od 2026-11-09 jsou všechny
+houby skutečné). Příznak `testovaciZaznam` a štítek "TESTOVACÍ ZÁZNAM"
+v aplikaci zůstávají funkční pro případné budoucí zkušební záznamy.
 
 ## Zpracování fotek
 
@@ -247,10 +245,14 @@ Složky `nove-zaznamy/` a `archiv-zaznamy/` jsou v `.gitignore`.
   krajina" a dřeviny (černý bez, javor, jasan, vrba, trnka, hloh) – pole
   `stromy` tedy znamená i dřeviny, na kterých houba roste. Určovací znaky
   a záměny se v detailu zobrazují s původním zalomením řádků.
-  Nevyřešeno: Krásnopórka mlynářka, Penízovka kuželovitá a Kozák
-  šedohnědý chybí (nejasné, který druh uživatel myslí); k ověření
-  Hřib žlutomasý (použit *Xerocomellus chrysenteron*).
-- **Další krok:** uživatel bude postupně doplňovat vlastní reálné houby a
-  fotky (přes `nastroje/zpracuj_fotky.py`) a nahrazovat jimi testovací
-  záznamy. Až bude dost reálných dat, smazat testovací záznamy
-  (`"testovaciZaznam": true`) a případně začít s rostlinami/živočichy.
+- 2026-11-09: Doplněny Krásnopórka mlynářka (*Albatrellus ovinus*),
+  Penízovka kuželovitá (*Rhodocollybia butyracea f. asema*), Kozák
+  šedohnědý (*Leccinum cyaneobasileucum*) podle myko.cz a skutečná karta
+  Pýchavky obecné. Smazán testovací Žampion polní (= Pečárka polní).
+  Celkem 76 druhů, žádné testovací záznamy. K ověření zůstává Hřib
+  žlutomasý (použit *Xerocomellus chrysenteron*).
+- **Další krok:** uživatel zkontroluje jedlost a ostatní údaje všech hub
+  a předá opravy – ty se udělají přímo v `data/houby/<id>.json` (karty
+  jsou už v `archiv-zaznamy/`). Pak doplňovat fotky přes
+  `nove-fotky/<id>/` a `nastroje/zpracuj_fotky.py`, případně začít
+  s rostlinami/živočichy.

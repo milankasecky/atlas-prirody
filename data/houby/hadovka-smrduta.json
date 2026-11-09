@@ -18,7 +18,9 @@
   ],
   "popis": "Nejprve bílé „vajíčko“ s rosolovitým obsahem.\nPak vyroste bílý houbovitý třeň s kloboučkem pokrytým olivovým slizem.\nSilný mršinový zápach - pozná se nosem z dálky.\nJedlé je jen vnitřní jádro mladého vajíčka.",
   "zamenyS": "Mladé muchomůrky (smrtelně jedovaté) - na podélném řezu vajíčka je vidět obrys budoucí houby s lupeny.\nPýchavky - uvnitř bílé a jednolité, bez rosolu.",
-  "zamenyId": [],
+  "zamenyId": [
+    "pychavka-obecna"
+  ],
   "fotky": [],
   "zaznamyNalezu": [],
   "stitky": [],
